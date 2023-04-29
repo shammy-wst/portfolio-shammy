@@ -74,9 +74,10 @@ function Contact() {
             </div>
             <div className='flex flex-col py-2'>
                 <label className='uppercase text-sm py-2'>Message</label>
-                <textarea 
-                    className='border-2 rounded-lg p-3 border-[#36344A]' 
-                    rows="10">
+                <textarea rows={10}
+                    className='form-control border-2 rounded-lg p-3 border-[#36344A]'
+                    placeholder='Message' 
+                    >
                 </textarea>
             </div>
             <button className='w-full p-4 text-gray-100 mt-4'>Send Message</button>
