@@ -5,6 +5,7 @@ import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Link from 'next/link'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
+import contactImg from '../../public/static/images/about.jpg'
 
 
 function Contact() {
@@ -20,7 +21,7 @@ function Contact() {
             <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-black rounded-xl p-4'>
                 <div className='lg:p-4 h-full'>
                     <div>
-                        <Image className='rounded-xl hover:scale-105 ease-in duration-300' src="/../public/assets/about.jpg" width={900} height={700} alt='image-contact'/>
+                        <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={contactImg} width={900} height={700} alt='image-contact'/>
                     </div>
                     <div>
                         <h2 className='py-2'>

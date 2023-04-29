@@ -1,5 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
+import figmaImg from '../../public/static/images/figma.png'
+import htmlImg from '../../public/static/images/html.png'
+import cssImg from '../../public/static/images/css.png'
+import jsImg from '../../public/static/images/javascript.png'
+import reactImg from '../../public/static/images/react.png'
+import gitImg from '../../public/static/images/github1.png'
+import firebaseImg from '../../public/static/images/firebase.png'
+import tailwindImg from '../../public/static/images/tailwind.png'
 
 function Skills() {
   return (
@@ -16,7 +24,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
-                                    src={"/../public/assets/images/skills/figma.png"} 
+                                    src={figmaImg}
                                     width="64" 
                                     height="64" 
                                     alt="#"
@@ -32,7 +40,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
-                                    src="/../public/assets/images/skills/html.png" 
+                                    src={htmlImg}
                                     width="64" 
                                     height="64" 
                                     alt="#"
@@ -48,7 +56,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
-                                    src="/../public/assets/images/skills/css.png" 
+                                    src={cssImg}
                                     width="64" 
                                     height="64" 
                                     alt="#"
@@ -64,7 +72,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
-                                    src="/../public/assets/images/skills/javascript.png" 
+                                    src={jsImg}
                                     width="64" 
                                     height="64" 
                                     alt="#"
@@ -80,7 +88,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
-                                    src="/../public/assets/images/skills/react.png" 
+                                    src={reactImg}
                                     width="64" 
                                     height="64" 
                                     alt="#"
@@ -96,7 +104,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
-                                    src="/../public/assets/images/skills/github1.png" 
+                                    src={gitImg}
                                     width="64" 
                                     height="64" 
                                     alt="#"
@@ -112,7 +120,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
-                                    src="/../public/assets/images/skills/firebase.png" 
+                                    src={firebaseImg}
                                     width="64" 
                                     height="64" 
                                     alt="#"
@@ -128,7 +136,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
-                                    src="/../public/assets/images/skills/tailwind.png" 
+                                    src={tailwindImg}
                                     width="64" 
                                     height="64" 
                                     alt="#"

@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import aboutImg from '../../public/static/images/about.jpeg'
 
 const About = () => {
   return (
@@ -22,9 +23,9 @@ const About = () => {
                 </p>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-black rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                <img
+                <Image
                 className='rounded-xl' 
-                src="https://i.goopics.net/kn9pe.jpg"
+                src={aboutImg}
                 alt="image-icham"/>
             </div>
         </div>

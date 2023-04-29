@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import logoImg from '../../public/static/images/NavLogo.png'
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
@@ -56,7 +57,7 @@ const Navbar = () => {
         <Link href='/'>
           
             <Image
-              src={"/assets/images/navLogo.png"}
+              src={logoImg}
               alt='/'
               width='125'
               height='50'
