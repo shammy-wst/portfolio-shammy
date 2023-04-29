@@ -27,7 +27,7 @@ const About = () => {
                     src={"/../public/assets/images/about.jpeg"} 
                     width={500} 
                     height={800} 
-                    alt="image-icham-sport"/>
+                    alt="image-icham"/>
             </div>
         </div>
     </div>
