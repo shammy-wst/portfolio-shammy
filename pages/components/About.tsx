@@ -22,7 +22,12 @@ const About = () => {
                 </p>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-black rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                <Image className='rounded-xl' src="/../public/assets/about.jpeg" width={500} height={800} alt="image-icham-sport"/>
+                <Image 
+                    className='rounded-xl' 
+                    src={"/../public/assets/images/about.jpeg"} 
+                    width={500} 
+                    height={800} 
+                    alt="image-icham-sport"/>
             </div>
         </div>
     </div>

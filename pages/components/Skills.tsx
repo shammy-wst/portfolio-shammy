@@ -16,7 +16,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
-                                    src="/../public/assets/skills/figma.png" 
+                                    src={"/../public/assets/images/skills/figma.png"} 
                                     width="64" 
                                     height="64" 
                                     alt="#"
@@ -32,7 +32,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
-                                    src="/../public/assets/skills/html.png" 
+                                    src="/../public/assets/images/skills/html.png" 
                                     width="64" 
                                     height="64" 
                                     alt="#"
@@ -48,7 +48,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
-                                    src="/../public/assets/skills/css.png" 
+                                    src="/../public/assets/images/skills/css.png" 
                                     width="64" 
                                     height="64" 
                                     alt="#"
@@ -64,7 +64,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
-                                    src="/../public/assets/skills/javascript.png" 
+                                    src="/../public/assets/images/skills/javascript.png" 
                                     width="64" 
                                     height="64" 
                                     alt="#"
@@ -80,7 +80,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
-                                    src="/../public/assets/skills/react.png" 
+                                    src="/../public/assets/images/skills/react.png" 
                                     width="64" 
                                     height="64" 
                                     alt="#"
@@ -96,7 +96,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
-                                    src="/../public/assets/skills/github1.png" 
+                                    src="/../public/assets/images/skills/github1.png" 
                                     width="64" 
                                     height="64" 
                                     alt="#"
@@ -112,7 +112,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
-                                    src="/../public/assets/skills/firebase.png" 
+                                    src="/../public/assets/images/skills/firebase.png" 
                                     width="64" 
                                     height="64" 
                                     alt="#"
@@ -128,7 +128,7 @@ function Skills() {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
-                                    src="/../public/assets/skills/tailwind.png" 
+                                    src="/../public/assets/images/skills/tailwind.png" 
                                     width="64" 
                                     height="64" 
                                     alt="#"
