@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import DashbladeImg from '../public/assets/projects/dashblade.png'
+import DashbladeImg from '../public/static/images/dashblade.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 

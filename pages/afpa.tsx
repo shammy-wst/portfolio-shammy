@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import afpaImg from '../public/assets/projects/afpa.png'
+import afpaImg from '../public/static/images/afpa.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 

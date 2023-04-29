@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import BeatcrownImg from '../public/assets/projects/beatcrown.png'
+import BeatcrownImg from '../public/static/images/beatcrown.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 

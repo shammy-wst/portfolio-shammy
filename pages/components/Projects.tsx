@@ -1,8 +1,8 @@
 import React from 'react'
-import afpaImg from '../../public/assets/projects/afpa.png'
-import FlixhiveImg from '../../public/assets/projects/flixhive.jpg'
-import DashbladeImg from '../../public/assets/projects/dashblade.png'
-import BeatcrownImg from '../../public/assets/projects/beatcrown.png'
+import afpaImg from '../../public/static/images/afpa.png'
+import FlixhiveImg from '../../public/static/images/flixhive.jpg'
+import DashbladeImg from '../../public/static/images/dashblade.png'
+import BeatcrownImg from '../../public/static/images/beatcrown.png'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {

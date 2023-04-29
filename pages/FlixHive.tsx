@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import FlixhiveImg from '../public/assets/projects/flixhive.jpg'
+import FlixhiveImg from '../public/static/images/flixhive.jpg'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
