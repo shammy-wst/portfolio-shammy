@@ -5,9 +5,9 @@ import afpaImg from '../../public/assets/projects/afpa.png'
 
 
 const ProjectItem = ({title, backgroundImg, projectUrl} : 
-  {title: any}
-  & {backgroundImg: any}
-  & {projectUrl: any}
+  {title: string}
+  & {backgroundImg: string}
+  & {projectUrl: string}
   )  => {
   return (
     <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl p-4 group hover:bg-gradient-to-r from-[#36344A] to-[#36344A]'>
