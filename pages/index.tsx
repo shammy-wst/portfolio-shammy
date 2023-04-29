@@ -14,6 +14,7 @@ export default function Home() {
       <Head>
         <title>Icham | Front-End Developer</title>
         <link rel="icon" href="/favicon.ico" />
+          <link rel="stylesheet" href="https://use.typekit.net/fqg2pyf.css"/>
         <meta name='description' content='Icham Front-End Developer' />
       </Head>
       <Main />

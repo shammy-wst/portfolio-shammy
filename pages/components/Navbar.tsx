@@ -10,8 +10,8 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'; import { useRouter } fro
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
-  const [linkColor, setLinkColor] = useState('#[#1F1E27]');
+  const [navBg, setNavBg] = useState('ecf0f3');
+  const [linkColor, setLinkColor] = useState('[#181818]');
  const router = useRouter();
 
  useEffect(() => {
@@ -24,7 +24,7 @@ const Navbar = () => {
      setNavBg('transparent');
      setLinkColor('#26E8A0');
    } else {
-     setNavBg('#1F1E27');
+     setNavBg('#181818');
      setLinkColor('white');
    }
  }, [router]);
@@ -109,7 +109,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#1F1E27] p-10 ease-in duration-500'
+              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#181818] p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
@@ -118,7 +118,7 @@ const Navbar = () => {
               <Link href='/'>
                 
                   <Image
-                    src="/assets/navLogo.png"
+                    src={logoImg}
                     width='87'
                     height='35'
                     alt='/'
@@ -127,7 +127,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'
+                className='rounded-full shadow-lg shadow-[#363636] p-3 cursor-pointer'
               >
                 <AiOutlineClose />
               </div>
@@ -181,7 +181,7 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                  <div className='rounded-full shadow-lg shadow-[#363636] p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <FaLinkedinIn />
                   </div>
                 </a>
@@ -190,14 +190,14 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                  <div className='rounded-full shadow-lg shadow-[#363636] p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <FaGithub />
                   </div>
                 </a>
                 <Link href='/#contact'>
                   <div
                     onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
+                    className='rounded-full shadow-lg shadow-[#363636] p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
                     <AiOutlineMail />
                   </div>
@@ -205,7 +205,7 @@ const Navbar = () => {
                 <Link href='https://drive.google.com/file/d/1gmmupTcYoXA1mWP-wx7KuoSzZusKrblU/view?usp=sharing' about='_blank'>
                   <div
                     onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
+                    className='rounded-full shadow-lg shadow-[#363636] p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
                     <BsFillPersonLinesFill />
                   </div>

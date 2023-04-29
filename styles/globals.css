@@ -27,7 +27,8 @@ html {
 
 @layer base{
   body {
-    @apply bg-[#1F1E27] text-white tracking-wide;
+    @apply bg-[#181818] text-white tracking-wide;
+    font-family: Dystopian, sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -47,6 +48,6 @@ html {
   }
 
   button {
-    @apply rounded-xl uppercase bg-[#26E8A0] text-white;
+    @apply rounded-xl uppercase bg-[#F17554] text-white;
   }
 }
