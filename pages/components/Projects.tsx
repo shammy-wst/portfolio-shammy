@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
 import afpaImg from '../../public/assets/projects/afpa.png'
 import FlixhiveImg from '../../public/assets/projects/flixhive.jpg'
