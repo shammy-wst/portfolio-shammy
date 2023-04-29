@@ -10,10 +10,11 @@ const Beatcrown = () => {
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
-          className='absolute z-1'
-          layout='fill'
-          objectFit='cover'
-          src={BeatcrownImg}
+            className='absolute z-1 object-cover w-full h-[50vh]'
+            width={1920}
+            height={1080}
+
+            src={BeatcrownImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
@@ -26,7 +27,7 @@ const Beatcrown = () => {
             <div className='col-span-4'>
               <p>Project</p>
               <h2>Overview</h2>
-              <p>This app was built using Figma, to acces it you'll need to open the figma link bellow. This is a pretty simple design of a streaming music web app like Spotify,This project was part of a communication and management project during my first year at my School.
+              <p>This app was built using Figma, to access it you'll need to open the figma link bellow. This is a pretty simple design of a streaming music web app like Spotify,This project was part of a communication and management project during my first year at my School.
               </p>
               
               <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
