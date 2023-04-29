@@ -5,7 +5,7 @@ import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Link from 'next/link'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
-import contactImg from '../../public/static/images/about.jpg'
+import contactImg from '../../public/static/images/selfie.png'
 
 
 function Contact() {
