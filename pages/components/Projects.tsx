@@ -18,6 +18,7 @@ const Projects = () => {
                     title='AFPA - Redesign (Vanilla HTML/CSS/JS)' 
                     backgroundImg={afpaImg} 
                     projectUrl='/afpa' 
+                    
                 />
                  <ProjectItem 
                     title='FlixHive - A Movie App (NextJS, Tailwind, Firebase)' 
