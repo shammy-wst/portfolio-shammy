@@ -7,8 +7,8 @@ function resume() {
         <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
             <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
                 <div className='col-span-2'>
-                    <p className='uppercase text-xl tracking-widest text-[#26E8A0]'>About</p>
-                    <h2 className='py-4'>My resume</h2>
+                    <p className='uppercase text-xl tracking-widest text-[#26E8A0]'>resume</p>
+                    <h2 className='py-4'>Here's everything you'll need to know</h2>
 
                     <p className='py-6 text-white'>Right there you'll find my resume (yes it is more conventional)</p>
 
