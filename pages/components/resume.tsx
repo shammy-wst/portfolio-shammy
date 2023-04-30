@@ -4,7 +4,7 @@ import Image from "next/image";
 import cvImg from '../../public/static/images/curriculum.png'
 function resume() {
     return (
-        <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
+        <div id='resume' className='w-full md:h-screen p-2 flex items-center py-16'>
             <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
                 <div className='col-span-2'>
                     <p className='uppercase text-xl tracking-widest text-[#26E8A0]'>resume</p>
