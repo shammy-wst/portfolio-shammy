@@ -19,8 +19,6 @@ C
 pages/Beatcrown.tsx,d\2\d2428d66f28c4104397a06818141a5fab958320c
 J
 pages/components/About.tsx,f\b\fb050822597f5fc04ae5661b095b2af3326e0eb4
-K
-pages/components/Navbar.tsx,7\a\7a0ee5a63d562ed47527f3b98d64b17fd355376d
 M
 pages/components/Projects.tsx,d\8\d839e7670d0dfeb5c96a72379adce970a0c48b95
 K
