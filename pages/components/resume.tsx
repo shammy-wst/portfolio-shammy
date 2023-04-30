@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from "next/link";
 import Image from "next/image";
-import cvImg from "@/public/static/images/resume.png";
+import cvImg from "@/public/static/images/resume1.png";
 function resume() {
     return (
         <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
