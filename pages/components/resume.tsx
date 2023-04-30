@@ -2,7 +2,7 @@ import React from 'react'
 import Link from "next/link";
 import Image from "next/image";
 import cvImg from "@/public/static/images/resume.png";
-function Resume() {
+function resume() {
     return (
         <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
             <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
@@ -43,4 +43,4 @@ function Resume() {
 )
 }
 
-export default Resume
+export default resume
