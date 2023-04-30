@@ -18,9 +18,7 @@ function resume() {
                         And if it is not enough, you can still contact me, I'll be happy to answer you ! (Or you can check my LinkedIn profile)
                     </p>
                     <div className={"py-6"}>
-                        <a>
                             <Link className="cursor-pointer underline" href='/static/images/Resume.pdf' target="_blank">Resume or Curriculum Vitae</Link>
-                        </a>
                     </div>
                     <div className={"py-10"}>
                         <Link href='/#contact' className='tracking-widest font-bold text-[#26E8A0] py-2 underline cursor-pointer'>
