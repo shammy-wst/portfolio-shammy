@@ -28,8 +28,13 @@ const FlixHive = () => {
                         <h2>Overview</h2>
                         <p>This app was built using NextJS and Tailwind and isnt hosted, to acces it you'll need to download it on GitHub and run it on your own system. This is a pretty simple rework of Netflix Website, with pretty much all of the fonctionality the API provides.This project was my first group project during my first year at my School.
                         </p>
-                        <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-                        <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+                        <Link href='https://youtu.be/ZnWwL1SNTO8s' target="_blank">
+                            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+                        </Link>
+                        <Link href='https://github.com/shammy-wst/FlixHive-WEB' target='_blank'>
+                            <button className='px-8 py-2 mt-4 mr-8'>Git Repo</button>
+                        </Link>
+
                     </div>
                     <div className='col-span-4 md:col-span-1 shadow-xl shadow-black rounded-xl p-4'>
                         <div className='p-2'>

@@ -58,7 +58,7 @@ function Contact() {
             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                 <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>Name</label>
-                    <input className="border-2 rounded-lg p-3 flex border-[#363636]" type='text'/>
+                    <input className=" border-2 rounded-lg p-3 flex border-[#363636]" type='text'/>
                 </div>
                 <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>Phone Number</label>
@@ -75,7 +75,7 @@ function Contact() {
             </div>
             <div className='flex flex-col py-2'>
                 <label className='uppercase text-sm py-2'>Message</label>
-                <textarea rows={10}
+                <textarea rows={15}
                     className='form-control border-2 rounded-lg p-3 border-[#363636]'
                     placeholder='Message' 
                     >

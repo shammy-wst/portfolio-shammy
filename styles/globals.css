@@ -50,4 +50,12 @@ html {
   button {
     @apply rounded-xl uppercase bg-[#F17554] text-white;
   }
+
+  input {
+    color: black;
+  }
+
+  textarea {
+    color: black;
+  }
 }

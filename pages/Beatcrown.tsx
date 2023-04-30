@@ -29,10 +29,12 @@ const Beatcrown = () => {
               <h2>Overview</h2>
               <p>This app was built using Figma, to access it you'll need to open the figma link bellow. This is a pretty simple design of a streaming music web app like Spotify,This project was part of a communication and management project during my first year at my School.
               </p>
+
+                <Link href='https://www.figma.com/file/MXSxPr8SrU8JK0FZInK1Xf/Dashblade---APP?node-id=0%3A1&t=xsqJVcC2zNVSWjO8-1' target="_blank">
+                    <button className='px-8 py-2 mt-4 mr-8'>Figma</button>
+                </Link>
+                <button className='px-8 py-2 mt-4 mr-8'>Code in progress</button>
               
-              <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-              <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-              <a className="px-8 py-2 mt-4 mr-8 text-white bg-[black] rounded-md" href="https://www.figma.com/file/Nz9LB2FobFPadfUcGD36r9/Beatcrown?node-id=0%3A1&t=uG66gjyuMRRrDB5Q-1" target='_blank'>Figma</a>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-black rounded-xl p-4'>
               <div className='p-2'>

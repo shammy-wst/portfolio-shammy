@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs'; import { useRouter } from 'next/router';
+
 // import NavLogo from '../public/assets/navLogo.png'
 
 const Navbar = () => {
@@ -16,10 +17,10 @@ const Navbar = () => {
 
  useEffect(() => {
    if (
-     router.asPath === '/property' ||
-     router.asPath === '/crypto' ||
-     router.asPath === '/netflix' ||
-     router.asPath === '/twitch'
+     router.asPath === '/afpa' ||
+     router.asPath === '/FlixHive' ||
+     router.asPath === '/Dashblade' ||
+     router.asPath === '/Beatcrown'
    ) {
      setNavBg('transparent');
      setLinkColor('#26E8A0');
@@ -81,7 +82,7 @@ const Navbar = () => {
               <Link href='/#projects'>Projects</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/resume'>Resume</Link>
+              <Link href='/#Resume'>Resume</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#contact'>Contact</Link>
@@ -160,7 +161,7 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href='/resume'>
+              <Link href='/Resume'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Resume
                 </li>

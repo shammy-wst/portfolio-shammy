@@ -29,8 +29,13 @@ const afpa = () => {
                         <h2>Overview</h2>
                         <p>This app was built using native HTML CSS and JS and isnt hosted, to acces it you'll need to download it on GitHub and run it on your own system. This is a pretty simple rework of the AFPA Website, the design was entirely made by me.This project was my very first attempt of doing a Website during my first year at my School.
                         </p>
-                        <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-                        <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+                        <Link href='https://youtu.be/Zbj-V8Q7jpc' target="_blank">
+                            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+                        </Link>
+                        <Link href='https://github.com/shammy-wst/AFPA-Web-Design' target='_blank'>
+                            <button className='px-8 py-2 mt-4 mr-8'>Git Repo</button>
+                        </Link>
+
                     </div>
                     <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-[#36344A] rounded-xl p-4'>
                         <div className='p-2'>
