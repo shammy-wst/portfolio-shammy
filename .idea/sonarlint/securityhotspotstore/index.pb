@@ -13,10 +13,6 @@ B
 pages/FlixHive.tsx,3\e\3e151d24996d2e3d49a638be110f7267a28dbc65
 >
 pages/afpa.tsx,e\5\e546b0bcf1735c2f5b9c65746d419e18f5f64077
-C
-pages/Dashblade.tsx,f\a\fa18149a758d16fe7b334cc5141befc89e70a1be
-C
-pages/Beatcrown.tsx,d\2\d2428d66f28c4104397a06818141a5fab958320c
 J
 pages/components/About.tsx,f\b\fb050822597f5fc04ae5661b095b2af3326e0eb4
 M

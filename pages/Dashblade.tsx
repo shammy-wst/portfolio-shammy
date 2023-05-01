@@ -29,7 +29,7 @@ const Dashblade = () => {
               <h2>Overview</h2>
               <p>This app was built using Figma, to acces it you'll need to open the figma link bellow. This is a pretty simple design of a crypto app,This project was my mobile design project during my first year at my School.
               </p>
-                <Link href='https://www.figma.com/file/MXSxPr8SrU8JK0FZInK1Xf/Dashblade---APP?node-id=0%3A1&t=xsqJVcC2zNVSWjO8-1' target="_blank">
+                <Link href='https://www.figma.com/proto/MXSxPr8SrU8JK0FZInK1Xf/Dashblade---APP?page-id=0%3A1&node-id=36-4877&viewport=971%2C365%2C0.11&scaling=scale-down&starting-point-node-id=36%3A4877' target="_blank">
                     <button className='px-8 py-2 mt-4 mr-8'>Figma</button>
                 </Link>
               <button className='px-8 py-2 mt-4 mr-8'>Code in progress</button>
