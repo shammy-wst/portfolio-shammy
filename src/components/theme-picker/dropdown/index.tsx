@@ -9,6 +9,7 @@ import style from "./index.module.css";
 
 import type { ThemeKey } from "../../../themes";
 import type { Variants } from "framer-motion";
+import { Button } from "@components/button";
 
 const container: Variants = {
     hidden: {},
@@ -101,6 +102,13 @@ export const ThemePickerDropdown: React.ComponentType = () => {
                     value={auto}
                 />
             </motion.div>
+            <div>
+                <Button>
+                    <a href="https://drive.google.com/file/d/1iG1wLOwsRqu2ftlgJbe8-UGHRe4jzxKZ/view?usp=sharing" target="_blank">
+                        {"CV"}
+                    </a>
+                </Button>
+            </div>
         </motion.div>
     );
 };
