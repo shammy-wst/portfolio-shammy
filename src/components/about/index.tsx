@@ -40,7 +40,7 @@ const card: Variants = {
 
 export const About: React.ComponentType = () => (
     <motion.div className={style.about} id="about">
-        <SectionTitle text="About Me!" />
+        <SectionTitle text="About Me =)" />
         <motion.div
             className={style.cards}
             initial={"hidden"}
