@@ -9,7 +9,7 @@ export const ScrollingText: React.ComponentType = () => (
     <div className={style.container}>
         <div className={style.marquee}>
             <div className={style.track}>
-                <ScrollingTextWord text="Creative" />
+                <ScrollingTextWord text="UI/UX Designer" />
             </div>
             <div className={style.track}>
                 <ScrollingTextWord reverseDelimeter text="FullStack" />
