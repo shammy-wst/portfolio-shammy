@@ -30,21 +30,20 @@ export const projects: Project[] = [
         year: 2023
     },
     {
-        description: "Introducing my Spotify clone: a captivating design, personalized music recommendations, and seamless Stripe subscription support redefine music streaming for an engaging auditory journey.",
-        link: "https://google.com",
+        description: "Introducing Dashblade, a crypto app with a standout feature: a captivating and user-friendly design. Its meticulously crafted interface ensures intuitive navigation, while its advanced recommendation algorithm offers personalized content suggestions. With a diverse content library, this project promises an immersive and tailored streaming experience that goes beyond the ordinary.",
+        link: "https://www.figma.com/file/MXSxPr8SrU8JK0FZInK1Xf/Dashblade---APP?type=design&node-id=0%3A1&mode=design&t=fLY9GZymYuUJXtie-1",
         roles: [
             "Logo Design",
             "Website Design",
             "Website Development"
         ],
         tags: [
-            "TailwindCSS",
-            "NextJS",
-            "Typescript",
-            "Supabase",
-            "Stripe",
+            "UI/UX Design",
+            "Prototyping",
+            "Cyrpto",
+            "Figma",
         ],
-        title: "Beatcrown an astonishing Spotify clone",
+        title: "Dashblade - Your dream crypto app",
         year: 2023
     },
     {
