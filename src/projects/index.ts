@@ -31,7 +31,7 @@ export const projects: Project[] = [
     },
     {
         description: "Introducing Dashblade, a crypto app with a standout feature: a captivating and user-friendly design. Its meticulously crafted interface ensures intuitive navigation, while its advanced recommendation algorithm offers personalized content suggestions. With a diverse content library, this project promises an immersive and tailored streaming experience that goes beyond the ordinary.",
-        link: "https://www.figma.com/file/MXSxPr8SrU8JK0FZInK1Xf/Dashblade---APP?type=design&node-id=0%3A1&mode=design&t=fLY9GZymYuUJXtie-1",
+        link: "https://www.figma.com/proto/MXSxPr8SrU8JK0FZInK1Xf/Dashblade---APP?page-id=0%3A1&type=design&node-id=36-4877&viewport=971%2C364%2C0.11&t=anBOWyucATTe1EdI-1&scaling=scale-down&starting-point-node-id=36%3A4877&mode=design",
         roles: [
             "Logo Design",
             "Website Design",
@@ -40,7 +40,6 @@ export const projects: Project[] = [
         tags: [
             "UI/UX Design",
             "Prototyping",
-            "Cyrpto",
             "Figma",
         ],
         title: "Dashblade - Your dream crypto app",
@@ -54,9 +53,9 @@ export const projects: Project[] = [
             "Website Development"
         ],
         tags: [
-            "UX Design",
-            "UI Design",
-            "Figma"
+            "UX/UX Design",
+            "HTML/CSS Native",
+            "Javascript",
         ],
         title: "AFPA (Re-Design)",
         year: 2022

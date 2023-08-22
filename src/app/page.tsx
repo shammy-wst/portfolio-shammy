@@ -6,6 +6,7 @@ import { RecentProjects } from "@components/recent-projects";
 import { Contact } from "@components/contact";
 
 
+
 const HomePage = () => {
     return (
         <React.Fragment>
