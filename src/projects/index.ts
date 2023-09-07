@@ -68,9 +68,9 @@ export const projects: Project[] = [
             "Website Development"
         ],
         tags: [
-            "UX Design",
-            "UI Design",
-            "Development"
+            "UX/UX Design",
+            "HTML/CSS Native",
+            "Javascript",
         ],
         title: "Subskill (Test)",
         year: 2023
