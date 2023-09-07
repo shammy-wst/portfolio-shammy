@@ -61,8 +61,8 @@ export const projects: Project[] = [
         year: 2022
     },
     {
-        description: "More coming soon ;)",
-        link: "",
+        description: "Introducing a work that i had to do for Subskill, it was a test to see if i can work with them, i had to do a website for a client, i had to do the design and the development, i had to do it in 1 week.",
+        link: "https://project-subskill.netlify.app/",
         roles: [
             "Website Design",
             "Website Development"
@@ -72,7 +72,7 @@ export const projects: Project[] = [
             "UI Design",
             "Development"
         ],
-        title: "Project in progress...",
+        title: "Subskill (Test)",
         year: 2023
     }
 ];
