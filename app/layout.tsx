@@ -6,7 +6,7 @@ const inter = JetBrains_Mono({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Icham M\'MADI',
-  description: 'Icham M\'MADI\'s personal website',
+  description: 'Icham M\'MADI\'s very cool portfolio',
 }
 
 export default function RootLayout({
@@ -16,6 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <link
+      rel='favicon'
+      href='/favicon.ico'
+      />
       <body className={inter.className}>{children}</body>
     </html>
   )

@@ -1,9 +1,11 @@
-import WorkinProgress from "./components/WorkinProgress";
+import Header from "./components/Header";
+import BackCube from "./components/BackCube";
 
 export default function Home() {
   return (
     <>
-      <WorkinProgress />
+      <Header />
+      <BackCube />
     </>
   )
 }
