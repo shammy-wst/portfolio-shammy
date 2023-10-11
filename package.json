@@ -1,40 +1,25 @@
 {
-  "name": "brad-love-portfolio",
+  "name": "my-app",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "analyze": "ANALYZE=true next build && next start"
+    "lint": "next lint"
   },
   "dependencies": {
-    "@react-three/drei": "^9.57.3",
-    "@react-three/fiber": "^8.12.0",
-    "@react-three/postprocessing": "^2.7.0",
-    "fast-simplex-noise": "^4.0.0",
-    "framer-motion": "^10.3.2",
-    "next": "^13.2.4",
-    "postprocessing": "^6.30.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.15.0",
-    "three": "^0.150.1",
-    "zustand": "^4.3.6"
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "13.5.4"
   },
   "devDependencies": {
-    "@types/node": "18.15.3",
-    "@types/prettier": "^2.7.2",
-    "@types/react": "^18.0.28",
-    "@types/three": "^0.149.0",
-    "@typescript-eslint/eslint-plugin": "^5.55.0",
-    "@typescript-eslint/parser": "^5.55.0",
-    "autoprefixer": "^10.4.14",
-    "eslint": "^8.36.0",
-    "eslint-config-next": "13.2.4",
-    "json-schema": "^0.4.0",
-    "postcss": "^8.4.21",
-    "prettier": "^2.8.4",
-    "typescript": ">=4.9.5"
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3"
   }
 }
