@@ -2,7 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { JetBrains_Mono } from 'next/font/google'
 
-const inter = JetBrains_Mono({ subsets: ['latin'] })
+const jet = JetBrains_Mono({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Shammy',
@@ -20,7 +20,9 @@ export default function RootLayout({
       rel='favicon'
       href='/favicon.ico'
       />
-      <body className={inter.className}>{children}</body>
+      <body className={jet.className}>
+        {children}
+      </body>
     </html>
   )
 }

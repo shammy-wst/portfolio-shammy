@@ -1,11 +1,11 @@
 import Header from "./components/Header";
-import BackCube from "./components/BackCube";
+import Videoloop from "./components/Videoloop";
 
 export default function Home() {
   return (
-    <>
+    <div id="page__content">
       <Header />
-      <BackCube />
-    </>
+      <Videoloop />
+    </div>
   )
 }
