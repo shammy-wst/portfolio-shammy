@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div id="page__content">
       <Header />
-      <div className="z-20 flex flex-row gap-80">
+      <div className="z-20 flex lg:flex-row gap-10 sm:flex-col">
         <InformationBox />
         <InformationBox />
       </div>
