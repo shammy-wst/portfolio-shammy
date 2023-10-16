@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <div id="page__content">
       <Header />
-      <ScrollingText />
       <InformationBox
         title="Projects"
         projectTitle="FlixHive"

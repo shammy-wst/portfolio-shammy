@@ -1,5 +1,5 @@
-import { Content } from "next/font/google";
 import React from "react";
+import Button from "@mui/material/Button";
 
 interface InformationBoxProps {
   title: string;
@@ -52,6 +52,85 @@ const InformationBox: React.FC<InformationBoxProps> = ({
             <p className="flex w-4/5">{description}</p>
             <p className="flex">{date}</p>
           </div>
+          <div className="flex flex-row gap-2">
+          <Button 
+          variant="outlined"
+          className="
+          bg-white
+          text-black
+          hover:bg-black
+          hover:text-white
+          border-2
+          border-black
+          hover:border-white
+          uppercase
+          text-base
+          font-bold
+          py-2
+          px-4
+          rounded-none
+          cursor-pointer
+          max-w-max
+          ">FIGMA</Button>
+          <Button 
+          variant="outlined"
+          className="
+          bg-white
+          text-black
+          hover:bg-black
+          hover:text-white
+          border-2
+          border-black
+          hover:border-white
+          uppercase
+          text-base
+          font-bold
+          py-2
+          px-4
+          rounded-none
+          cursor-pointer
+          max-w-max
+          ">NEXTJS</Button>
+          <Button 
+          variant="outlined"
+          className="
+          bg-white
+          text-black
+          hover:bg-black
+          hover:text-white
+          border-2
+          border-black
+          hover:border-white
+          uppercase
+          text-base
+          font-bold
+          py-2
+          px-4
+          rounded-none
+          cursor-pointer
+          max-w-max
+          ">TAILWINDCSS</Button>
+          <Button 
+          variant="outlined"
+          className="
+          bg-white
+          text-black
+          hover:bg-black
+          hover:text-white
+          border-2
+          border-black
+          hover:border-white
+          uppercase
+          text-base
+          font-bold
+          py-2
+          px-4
+          rounded-none
+          cursor-pointer
+          max-w-max
+          ">FIREBASE</Button>
+          </div>
+          
         </div>
       </div>
       <div id="Project2">
@@ -59,7 +138,7 @@ const InformationBox: React.FC<InformationBoxProps> = ({
         <div className="flex flex-col gap-2 p-4 m-0 text-lg">
           <a
             target="blank"
-            href="https://www.figma.com/proto/MXSxPr8SrU8JK0FZInK1Xf/Dashblade---APP?page-id=0%3A1&type=design&node-id=36-4877&viewport=928%2C386%2C0.1&t=QqUm4hP69RSOVjuS-1&scaling=scale-down&starting-point-node-id=36%3A4877&mode=design"
+            href="https://www.figma.com/proto/XslO2zvD0dxSqLCB3T1Tfh/Untitled?page-id=0%3A1&node-id=1-4464&mode=design&t=rnCHmyiSX7BAetVn-1"
             className="font-bold hover:underline cursor-pointer animate-pulse uppercase text-2xl"
           >
             {projectTitle2}
@@ -67,6 +146,65 @@ const InformationBox: React.FC<InformationBoxProps> = ({
           <div className="flex justify-between p-0 gap-2">
             <p className="flex w-4/5">{description2}</p>
             <p className="flex">{date2}</p>
+          </div>
+          <div className="flex flex-row gap-2">
+          <Button 
+          variant="outlined"
+          className="
+          bg-white
+          text-black
+          hover:bg-black
+          hover:text-white
+          border-2
+          border-black
+          hover:border-white
+          uppercase
+          text-base
+          font-bold
+          py-2
+          px-4
+          rounded-none
+          cursor-pointer
+          max-w-max
+          ">FIGMA</Button>
+          <Button 
+          variant="outlined"
+          className="
+          bg-white
+          text-black
+          hover:bg-black
+          hover:text-white
+          border-2
+          border-black
+          hover:border-white
+          uppercase
+          text-base
+          font-bold
+          py-2
+          px-4
+          rounded-none
+          cursor-pointer
+          max-w-max
+          ">PROTOTYPING</Button>
+          <Button 
+          variant="outlined"
+          className="
+          bg-white
+          text-black
+          hover:bg-black
+          hover:text-white
+          border-2
+          border-black
+          hover:border-white
+          uppercase
+          text-base
+          font-bold
+          py-2
+          px-4
+          rounded-none
+          cursor-pointer
+          max-w-max
+          ">UI/UX DESIGN</Button>
           </div>
         </div>
       </div>
@@ -84,14 +222,93 @@ const InformationBox: React.FC<InformationBoxProps> = ({
             <p className="flex w-4/5">{description3}</p>
             <p className="flex">{date3}</p>
           </div>
+          <div className="flex flex-row gap-2">
+          <Button 
+          variant="outlined"
+          className="
+          bg-white
+          text-black
+          hover:bg-black
+          hover:text-white
+          border-2
+          border-black
+          hover:border-white
+          uppercase
+          text-base
+          font-bold
+          py-2
+          px-4
+          rounded-none
+          cursor-pointer
+          max-w-max
+          ">WEB INTEGRATION</Button>
+          <Button 
+          variant="outlined"
+          className="
+          bg-white
+          text-black
+          hover:bg-black
+          hover:text-white
+          border-2
+          border-black
+          hover:border-white
+          uppercase
+          text-base
+          font-bold
+          py-2
+          px-4
+          rounded-none
+          cursor-pointer
+          max-w-max
+          ">HTML/CSS NATIVE</Button>
+          <Button 
+          variant="outlined"
+          className="
+          bg-white
+          text-black
+          hover:bg-black
+          hover:text-white
+          border-2
+          border-black
+          hover:border-white
+          uppercase
+          text-base
+          font-bold
+          py-2
+          px-4
+          rounded-none
+          cursor-pointer
+          max-w-max
+          ">RESPONSIVE CODE</Button>
+          <Button 
+          variant="outlined"
+          className="
+          bg-white
+          text-black
+          hover:bg-black
+          hover:text-white
+          border-2
+          border-black
+          hover:border-white
+          uppercase
+          text-base
+          font-bold
+          py-2
+          px-4
+          rounded-none
+          cursor-pointer
+          max-w-max
+          ">FIGMA</Button>
+          </div>
         </div>
+        
       </div>
       <div id="Project4">
         <div className="flex border-b-2 border-white py-2 px-4 m-0"></div>
         <div className="flex flex-col gap-2 p-4 m-0 text-lg">
           <a
             target="blank"
-            href="#"
+            href="https://www.figma.com/proto/MXSxPr8SrU8JK0FZInK1Xf/Dashblade---APP?page-id=0%3A1&type=design&node-id=36-4877&viewport=928%2C386%2C0.1&t=QqUm4hP69RSOVjuS-1&scaling=scale-down&starting-point-node-id=36%3A4877&mode=design"
             className="font-bold hover:underline cursor-pointer animate-pulse uppercase text-2xl"
           >
             {projectTitle4}
@@ -99,6 +316,84 @@ const InformationBox: React.FC<InformationBoxProps> = ({
           <div className="flex justify-between p-0 gap-2">
             <p className="flex w-4/5">{description4}</p>
             <p className="flex">{date4}</p>
+          </div>
+          <div className="flex flex-row gap-2">
+          <Button 
+          variant="outlined"
+          className="
+          bg-white
+          text-black
+          hover:bg-black
+          hover:text-white
+          border-2
+          border-black
+          hover:border-white
+          uppercase
+          text-base
+          font-bold
+          py-2
+          px-4
+          rounded-none
+          cursor-pointer
+          max-w-max
+          ">FIGMA</Button>
+          <Button 
+          variant="outlined"
+          className="
+          bg-white
+          text-black
+          hover:bg-black
+          hover:text-white
+          border-2
+          border-black
+          hover:border-white
+          uppercase
+          text-base
+          font-bold
+          py-2
+          px-4
+          rounded-none
+          cursor-pointer
+          max-w-max
+          ">MOBILE</Button>
+          <Button 
+          variant="outlined"
+          className="
+          bg-white
+          text-black
+          hover:bg-black
+          hover:text-white
+          border-2
+          border-black
+          hover:border-white
+          uppercase
+          text-base
+          font-bold
+          py-2
+          px-4
+          rounded-none
+          cursor-pointer
+          max-w-max
+          ">CRYPTOCURRENCY</Button>
+          <Button 
+          variant="outlined"
+          className="
+          bg-white
+          text-black
+          hover:bg-black
+          hover:text-white
+          border-2
+          border-black
+          hover:border-white
+          uppercase
+          text-base
+          font-bold
+          py-2
+          px-4
+          rounded-none
+          cursor-pointer
+          max-w-max
+          ">PROTOTYPING</Button>
           </div>
         </div>
       </div>

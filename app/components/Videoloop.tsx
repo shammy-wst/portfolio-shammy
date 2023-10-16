@@ -2,7 +2,7 @@ import React from "react";
 
 const Videoloop = () => {
   return (
-    <div className="hidden absolute top-0 left-0 z-0 h-screen sm:h-1/2 md:h-full">
+    <div className="absolute top-0 left-0 z-0 h-screen sm:h-1/2 md:h-full">
       <video
         autoPlay
         loop
