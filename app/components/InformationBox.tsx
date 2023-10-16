@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "@mui/material/Button";
+import "./informationbox.content.css"
 
 interface InformationBoxProps {
   title: string;
@@ -44,7 +45,8 @@ const InformationBox: React.FC<InformationBoxProps> = ({
           <a
             target="blank"
             href="https://flix-hive-web.vercel.app/"
-            className="font-bold hover:underline cursor-pointer animate-pulse uppercase text-2xl"
+            className="shake-element font-bold cursor-pointer uppercase text-2xl"
+            id="shake-element"
           >
             {projectTitle}
           </a>
@@ -139,7 +141,7 @@ const InformationBox: React.FC<InformationBoxProps> = ({
           <a
             target="blank"
             href="https://www.figma.com/proto/XslO2zvD0dxSqLCB3T1Tfh/Untitled?page-id=0%3A1&node-id=1-4464&mode=design&t=rnCHmyiSX7BAetVn-1"
-            className="font-bold hover:underline cursor-pointer animate-pulse uppercase text-2xl"
+            className="shake-element font-bold cursor-pointer uppercase text-2xl"
           >
             {projectTitle2}
           </a>
@@ -214,7 +216,7 @@ const InformationBox: React.FC<InformationBoxProps> = ({
           <a
             target="blank"
             href="https://project-subskill.netlify.app/"
-            className="font-bold hover:underline cursor-pointer animate-pulse uppercase text-2xl"
+            className="shake-element font-bold cursor-pointer uppercase text-2xl"
           >
             {projectTitle3}
           </a>
@@ -309,7 +311,7 @@ const InformationBox: React.FC<InformationBoxProps> = ({
           <a
             target="blank"
             href="https://www.figma.com/proto/MXSxPr8SrU8JK0FZInK1Xf/Dashblade---APP?page-id=0%3A1&type=design&node-id=36-4877&viewport=928%2C386%2C0.1&t=QqUm4hP69RSOVjuS-1&scaling=scale-down&starting-point-node-id=36%3A4877&mode=design"
-            className="font-bold hover:underline cursor-pointer animate-pulse uppercase text-2xl"
+            className="shake-element font-bold cursor-pointer uppercase text-2xl"
           >
             {projectTitle4}
           </a>
