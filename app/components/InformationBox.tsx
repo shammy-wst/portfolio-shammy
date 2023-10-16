@@ -46,7 +46,7 @@ const InformationBox: React.FC<InformationBoxProps> = ({
           <a
             target="blank"
             href="https://flix-hive-web.vercel.app/"
-            className="shake-element font-bold cursor-pointer uppercase text-2xl"
+            className="shake-element font-bold cursor-pointer uppercase text-2xl max-w-[20%]"
             id="shake-element"
           >
             {projectTitle}
@@ -142,7 +142,7 @@ const InformationBox: React.FC<InformationBoxProps> = ({
           <a
             target="blank"
             href="https://www.figma.com/proto/XslO2zvD0dxSqLCB3T1Tfh/Untitled?page-id=0%3A1&node-id=1-4464&mode=design&t=rnCHmyiSX7BAetVn-1"
-            className="shake-element font-bold cursor-pointer uppercase text-2xl"
+            className="shake-element font-bold cursor-pointer uppercase text-2xl max-w-[20%]"
           >
             {projectTitle2}
           </a>
@@ -217,7 +217,7 @@ const InformationBox: React.FC<InformationBoxProps> = ({
           <a
             target="blank"
             href="https://project-subskill.netlify.app/"
-            className="shake-element font-bold cursor-pointer uppercase text-2xl"
+            className="shake-element font-bold cursor-pointer uppercase text-2xl max-w-[20%]"
           >
             {projectTitle3}
           </a>
@@ -312,7 +312,7 @@ const InformationBox: React.FC<InformationBoxProps> = ({
           <a
             target="blank"
             href="https://www.figma.com/proto/MXSxPr8SrU8JK0FZInK1Xf/Dashblade---APP?page-id=0%3A1&type=design&node-id=36-4877&viewport=928%2C386%2C0.1&t=QqUm4hP69RSOVjuS-1&scaling=scale-down&starting-point-node-id=36%3A4877&mode=design"
-            className="shake-element font-bold cursor-pointer uppercase text-2xl"
+            className="shake-element font-bold cursor-pointer uppercase text-2xl max-w-[20%]"
           >
             {projectTitle4}
           </a>
