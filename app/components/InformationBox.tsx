@@ -34,7 +34,8 @@ const InformationBox: React.FC<InformationBoxProps> = ({
   date4,
 }) => {
   return (
-    <div className="z-20 border-white border-2 p-0 mt-10 flex flex-col gap-4">
+    <div className="flex flex-col m-auto sm:justify-center md:justify-between w-full">
+      <div className="z-20 border-white border-2 p-0 mt-10 flex flex-col gap-4 max-w-full">
       <div id="Project1">
         <div className="flex bg-white text-black border-b-2 border-black m-0">
           <h1 className="uppercase border-2 w-full py-2 px-4 border-black font-black text-2xl">
@@ -399,6 +400,7 @@ const InformationBox: React.FC<InformationBoxProps> = ({
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
