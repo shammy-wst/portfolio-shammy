@@ -9,7 +9,7 @@ const CustomButton: React.FC<TextButton> = ({
     text,
 }) => {
   return (
-    <Button
+      <Button
       variant="outlined"
       className="
           bg-white
@@ -20,17 +20,19 @@ const CustomButton: React.FC<TextButton> = ({
           border-black
           hover:border-white
           uppercase
-          text-base
           font-bold
           py-2
           px-4
           rounded-none
           cursor-pointer
           max-w-max
+          md:text-base
+          text-sm
           "
     >
       {text}
     </Button>
+  
   );
 };
 

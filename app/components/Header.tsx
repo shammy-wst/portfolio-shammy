@@ -4,7 +4,7 @@ import Image from "next/image";
 const Header = () => {
   return (
     <header className="z-20 top-0 left-0 sm:justify-center md:justify-between flex text-white flex-row align-middle justify-between border-2 border-white p-6 w-full m-0 ">
-      <figure className="sm:hidden md:flex flex-col gap-2 justify-center align-middle p-0">
+      <figure className="shake-element sm:hidden md:flex flex-col gap-2 justify-center align-middle p-0 ">
         <svg
           className="w-full"
           width="27"
@@ -24,14 +24,14 @@ const Header = () => {
         <ul className="flex flex-row gap-20 align-middle items-center p-0 m-0">
           <li>
             <a 
-            className="uppercase font-bold text-lg"
+            className="uppercase font-bold text-lg hover:bg-white hover:text-black p-2"
             href="#">Home</a>
           </li>
           <li>
-            <a className="uppercase font-bold text-lg"href="#">Projects</a>
+            <a className="uppercase font-bold text-lg hover:bg-white hover:text-black p-2"href="#">Projects</a>
           </li>
           <li>
-            <a className="uppercase font-bold text-lg"href="#">Contact</a>
+            <a className="uppercase font-bold text-lg hover:bg-white hover:text-black p-2"href="#">Contact</a>
           </li>
         </ul>
       </nav>

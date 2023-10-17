@@ -40,7 +40,7 @@ const InformationBox: React.FC<InformationBoxProps> = ({
             <p className="flex w-4/5">{description="Discover the new face of our Netflix clone: a sleek design that blends seamlessly with the latest trends, using NextJS, Firebase and TailwindCSS."}</p>
             <p className="flex">{date="2023"}</p>
           </div>
-          <div className="flex flex-row gap-2">
+          <div className="flex flex-col gap-2 md:flex-row">
             <CustomButton text="FULLSTACK"/>
             <CustomButton text="NEXTJS"/>
             <CustomButton text="FIREBASE"/>
