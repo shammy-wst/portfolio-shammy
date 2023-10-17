@@ -76,7 +76,7 @@ const InformationBox: React.FC<InformationBoxProps> = ({
               <p className="flex">{(date = "2023")}</p>
             </div>
             <div className="flex flex-row gap-2">
-              <CustomButton text="FIGMAK" />
+              <CustomButton text="FIGMA" />
               <CustomButton text="PROTOYYPING" />
               <CustomButton text="UI & UX DESIGN" />
             </div>
