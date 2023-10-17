@@ -2,14 +2,12 @@ import React from "react";
 import Button from "@mui/material/Button";
 
 interface TextButton {
-    text: string;
-    }
+  text: string;
+}
 
-const CustomButton: React.FC<TextButton> = ({
-    text,
-}) => {
+const CustomButton: React.FC<TextButton> = ({ text }) => {
   return (
-      <Button
+    <Button
       variant="outlined"
       className="
           bg-white
@@ -32,7 +30,6 @@ const CustomButton: React.FC<TextButton> = ({
     >
       {text}
     </Button>
-  
   );
 };
 

@@ -23,15 +23,28 @@ const Header = () => {
       <nav className="flex flex-row align-middle justify-center p-0 m-0">
         <ul className="flex flex-row gap-20 align-middle items-center p-0 m-0">
           <li>
-            <a 
-            className="uppercase font-bold text-lg hover:bg-white hover:text-black p-2"
-            href="#">Home</a>
+            <a
+              className="uppercase font-bold text-lg hover:bg-white hover:text-black p-2"
+              href="#"
+            >
+              Home
+            </a>
           </li>
           <li>
-            <a className="uppercase font-bold text-lg hover:bg-white hover:text-black p-2"href="#Projects">Projects</a>
+            <a
+              className="uppercase font-bold text-lg hover:bg-white hover:text-black p-2"
+              href="#Projects"
+            >
+              Projects
+            </a>
           </li>
           <li>
-            <a className="uppercase font-bold text-lg hover:bg-white hover:text-black p-2"href="#">Contact</a>
+            <a
+              className="uppercase font-bold text-lg hover:bg-white hover:text-black p-2"
+              href="#"
+            >
+              Contact
+            </a>
           </li>
         </ul>
       </nav>
