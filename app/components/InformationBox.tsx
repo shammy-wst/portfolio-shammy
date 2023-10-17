@@ -21,8 +21,8 @@ const InformationBox: React.FC<InformationBoxProps> = ({
   return (
     <div className="flex flex-col m-auto sm:justify-center md:justify-between w-full">
       <div className="z-20 border-white border-2 p-0 mt-10 flex flex-col gap-4 max-w-full">
-      <div id="Project1">
-        <div className="flex bg-white text-black border-b-2 border-black m-0">
+      <div>
+        <div id="Projects" className="flex bg-white text-black border-b-2 border-black m-0">
           <h1 className="uppercase border-2 w-full py-2 px-4 border-black font-black text-2xl">
             {title="Projects"}
           </h1>
@@ -50,7 +50,7 @@ const InformationBox: React.FC<InformationBoxProps> = ({
           
         </div>
       </div>
-      <div id="Project2">
+      <div>
         <div className="flex border-b-2 border-white py-2 px-4 m-0"></div>
         <div className="flex flex-col gap-2 p-4 m-0 text-lg">
           <a
@@ -71,7 +71,7 @@ const InformationBox: React.FC<InformationBoxProps> = ({
           </div>
         </div>
       </div>
-      <div id="Project3">
+      <div>
         <div className="flex border-b-2 border-white py-2 px-4 m-0"></div>
         <div className="flex flex-col gap-2 p-4 m-0 text-lg">
           <a
@@ -93,7 +93,7 @@ const InformationBox: React.FC<InformationBoxProps> = ({
         </div>
         
       </div>
-      <div id="Project4">
+      <div>
         <div className="flex border-b-2 border-white py-2 px-4 m-0"></div>
         <div className="flex flex-col gap-2 p-4 m-0 text-lg">
           <a

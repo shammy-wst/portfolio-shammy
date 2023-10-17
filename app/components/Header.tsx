@@ -28,7 +28,7 @@ const Header = () => {
             href="#">Home</a>
           </li>
           <li>
-            <a className="uppercase font-bold text-lg hover:bg-white hover:text-black p-2"href="#">Projects</a>
+            <a className="uppercase font-bold text-lg hover:bg-white hover:text-black p-2"href="#Projects">Projects</a>
           </li>
           <li>
             <a className="uppercase font-bold text-lg hover:bg-white hover:text-black p-2"href="#">Contact</a>
