@@ -1,6 +1,5 @@
 import Header from "./components/Header";
 import InformationBox from "./components/InformationBox";
-import ScrollingText from "./components/ScrollingText";
 import Videoloop from "./components/Videoloop";
 
 
