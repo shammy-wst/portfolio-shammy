@@ -18,18 +18,20 @@ const Header = () => {
             fill="white"
           />
         </svg>
-        <p className="sm:hidden md:flex">SHAMMY</p>
+        <p className="sm:hidden md:flex text-white text-lg">SHAMMY</p>
       </figure>
       <nav className="flex flex-row align-middle justify-center p-0 m-0">
         <ul className="flex flex-row gap-20 align-middle items-center p-0 m-0">
           <li>
-            <a href="#">Home</a>
+            <a 
+            className="uppercase font-bold text-lg"
+            href="#">Home</a>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <a className="uppercase font-bold text-lg"href="#">Projects</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a className="uppercase font-bold text-lg"href="#">Contact</a>
           </li>
         </ul>
       </nav>
