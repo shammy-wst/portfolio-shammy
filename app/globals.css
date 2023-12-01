@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Apply a global box-sizing rule to include padding and borders in the element's total width and height */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Your Preferred Font', sans-serif;
+  background-color: #1B1B1B; /* Set the background color */
+  color: white; /* Set text color to white */
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
