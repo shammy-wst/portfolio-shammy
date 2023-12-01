@@ -30,7 +30,7 @@ const MainTitle = () => {
     }
   }, []);
 
-  const parallaxAmount = 50;
+  const parallaxAmount = 20;
   const transitionDuration = "0.3s"; // Adjust the duration of the transition
 
   const transformStyle = isMouseOutside
