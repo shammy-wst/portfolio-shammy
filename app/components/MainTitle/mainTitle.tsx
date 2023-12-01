@@ -52,7 +52,7 @@ const MainTitle = () => {
 
   return (
     <div
-      className="flex flex-col text-center justify-center items-center align-middle min-h-screen"
+      className="flex flex-col text-center justify-center items-center align-middle min-h-screen z-0"
       style={style}
     >
       <svg

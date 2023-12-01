@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="flex justify-center align-center flex-col w-full bg-[#1B1B1B] p-4 absolute top-0 left-0 right-0 z-50">
+    <nav className="flex justify-center align-center flex-col w-full bg-[#1B1B1B] p-4 absolute top-0 left-0 right-0 z-10">
       <ul className="flex flex-row justify-between text-lg font-bold uppercase">
         <li>
           <a href="#">About</a>
