@@ -1,4 +1,17 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+// next.config.js
 
-module.exports = nextConfig
+module.exports = {
+    images: {
+      // The patterns array should contain objects with 'hostname' property
+      remotePatterns: [
+        {
+          hostname: 'i.imgur.com',
+        },
+        {
+          hostname: 'bored-bucket.s3.eu-west-3.amazonaws.com',
+        },
+      ],
+    },
+  };
+  
