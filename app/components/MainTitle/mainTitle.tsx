@@ -1,12 +1,11 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import ModalProject from "../Modals/ModalProject";
 
 const MainTitle = () => {
   const [mousePosition, setMousePosition] = useState({
-    x: window.innerWidth / 2,
-    y: window.innerHeight / 2,
+    x: typeof window !== 'undefined' ? window.innerWidth / 2 : 0,
+    y: typeof window !== 'undefined' ? window.innerHeight / 2 : 0,
   });
   const [isMouseOutside, setIsMouseOutside] = useState(false);
 
@@ -20,23 +19,31 @@ const MainTitle = () => {
       setIsMouseOutside(true);
     };
 
-    window.addEventListener("mousemove", handleMouseMove);
-    window.addEventListener("mouseleave", handleMouseLeave);
+    if (typeof window !== 'undefined') {
+      window.addEventListener("mousemove", handleMouseMove);
+      window.addEventListener("mouseleave", handleMouseLeave);
 
-    return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
-      window.removeEventListener("mouseleave", handleMouseLeave);
-    };
+      return () => {
+        window.removeEventListener("mousemove", handleMouseMove);
+        window.removeEventListener("mouseleave", handleMouseLeave);
+      };
+    }
   }, []);
 
   const parallaxAmount = 50;
   const transitionDuration = "0.3s"; // Adjust the duration of the transition
 
   const transformStyle = isMouseOutside
-    ? `translate(0, 0)`
-    : `translate(${
-        (mousePosition.x - window.innerWidth / 2) / parallaxAmount
-      }px, ${(mousePosition.y - window.innerHeight / 2) / parallaxAmount}px)`;
+  ? `translate(0, 0)`
+  : `translate(${
+      typeof window !== 'undefined'
+        ? (mousePosition.x - window.innerWidth / 2) / parallaxAmount
+        : 0
+    }px, ${
+      typeof window !== 'undefined'
+        ? (mousePosition.y - window.innerHeight / 2) / parallaxAmount
+        : 0
+    }px)`;
 
   const style = {
     transform: transformStyle,
@@ -45,7 +52,7 @@ const MainTitle = () => {
 
   return (
     <div
-      className="flex flex-col text-center justify-center items-center align-middle h-screen w-full"
+      className="flex flex-col text-center justify-center items-center align-middle min-h-screen"
       style={style}
     >
       <svg
@@ -60,7 +67,7 @@ const MainTitle = () => {
           fill="white"
         />
       </svg>
-      <ModalProject />
+
     </div>
   );
 };
