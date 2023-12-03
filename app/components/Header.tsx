@@ -16,7 +16,7 @@ const Header: React.FC = () => {
 
   return (
     <div className="fixed z-20">
-      <header className="fixed top-0 right-0 flex flex-row justify-between w-full p-9 bg-black">
+      <header className="fixed top-0 right-0 flex flex-row justify-between w-full p-4 bg-black">
         <Link href="/">
         <figure>
         <Image
