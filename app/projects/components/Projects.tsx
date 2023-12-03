@@ -81,7 +81,7 @@ const Projects = () => {
         </div>
       
       </div>
-      <div className="flex flex-col justify-center h-screen w-full mt-8 gap-6">
+      <div className="flex flex-col justify-center h-screen w-full gap-6">
       <h1 className="text-4xl text-center uppercase rainbow-text z-0">Projects</h1>
       <div className="border-2 border-stone-500 w-4/5 lg:h-2/5 h-2/3 flex mx-auto flex-col bg-black z-0">
         {/* Contenu du carrousel */}
