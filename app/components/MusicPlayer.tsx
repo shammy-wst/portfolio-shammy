@@ -55,7 +55,7 @@ const MusicPlayer: React.FC = () => {
         Your web browser does not support the audio element.
       </audio>
 
-      <div className="fixed bottom-0 justify-center flex gap-2 flex-row m-9 w-1/6">
+      <div className="fixed bottom-0 justify-center flex gap-2 flex-row m-9 w-1/6 z-30">
         <IconButton onClick={handlePlayPause} className="text-white">
           {isPlaying ? <PauseIcon /> : <PlayArrowIcon />}
         </IconButton>
