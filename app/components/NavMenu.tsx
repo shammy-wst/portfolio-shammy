@@ -1,5 +1,5 @@
 // NavMenu.tsx
-'use client';
+"use client";
 
 import Link from "next/link";
 
@@ -12,7 +12,11 @@ interface NavMenuProps {
 
 const NavMenu: React.FC<NavMenuProps> = ({ isOpen, onClose }) => {
   return (
-    <div className={`fixed flex flex-col bg-black w-full h-full z-20 ${isOpen ? 'block' : 'hidden'}`}>
+    <div
+      className={`fixed flex flex-col bg-black w-full h-full z-20 ${
+        isOpen ? "block" : "hidden"
+      }`}
+    >
       <nav className="flex flex-col justify-center align-middle items-center h-screen">
         <svg
           width="20"
@@ -31,16 +35,26 @@ const NavMenu: React.FC<NavMenuProps> = ({ isOpen, onClose }) => {
           />
         </svg>
         <ul className="flex flex-col justify-center items-center h-screen">
-        <Link onClick={onClose} href="/">
-          <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">HOME</li>
+          <Link onClick={onClose} href="/">
+            <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">
+              HOME
+            </li>
           </Link>
           <Link href="/projects">
-          <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">PROJECTS</li>
+            <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">
+              PROJECTS
+            </li>
           </Link>
           <Link href="/aboutme">
-          <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">ABOUT ME</li>
+            <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">
+              ABOUT ME
+            </li>
           </Link>
-          <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">CONTACT</li>
+          <Link href="/contact">
+            <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">
+              CONTACT
+            </li>
+          </Link>
         </ul>
       </nav>
     </div>
