@@ -18,12 +18,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-        {/* Add other meta tags, stylesheets, etc. here */}
-      </head>
+      <link
+          rel="icon"
+          href="./favicon.ico"
+          type="image/x-icon"
+        />
       <body style={{ fontFamily: 'JetBrains Mono, monospace' }}>
         {children}
       </body>
