@@ -66,9 +66,24 @@ const Projects = () => {
     projects[currentProject];
 
   return (
-    <div className="flex flex-col justify-center h-screen w-full mt-8 gap-6">
-      <h1 className="text-4xl text-center uppercase rainbow-text">Projects</h1>
-      <div className="border-2 border-stone-500 w-4/5 lg:h-2/5 h-2/3 flex mx-auto flex-col">
+
+    <div>
+      <div className="fixed w-full h-full bg-black z-10">
+        <div className="bg-black">
+        <Image
+          src="/assets/3drings.gif"
+          alt="CubeGif"
+          layout="fill"
+          objectFit="cover"
+          priority
+          className="opacity-10"
+        />
+        </div>
+      
+      </div>
+      <div className="flex flex-col justify-center h-screen w-full mt-8 gap-6">
+      <h1 className="text-4xl text-center uppercase rainbow-text z-20">Projects</h1>
+      <div className="border-2 border-stone-500 w-4/5 lg:h-2/5 h-2/3 flex mx-auto flex-col bg-black z-10">
         {/* Contenu du carrousel */}
         <figure className="relative w-full h-full scale-75">
           <Image src={image} alt={title} layout="fill" objectFit="cover" className="border-2" />
@@ -114,16 +129,18 @@ const Projects = () => {
       </div>
       {/* Boutons de navigation du carrousel */}
       <div className="flex justify-center w-4/5 mx-auto">
-        <div className="justify-center flex gap-8 text-4xl text-stone-500">
-          <button onClick={goToPreviousProject} className="btn btn-secondary">
+        <div className="justify-center flex gap-8 text-4xl z-10 text-stone-500">
+          <button onClick={goToPreviousProject} className="btn btn-secondary hover:scale-110">
             &lt;
           </button>
-          <button onClick={goToNextProject} className="btn btn-primary">
+          <button onClick={goToNextProject} className="btn btn-primary hover:scale-110">
             &gt;
           </button>
         </div>
       </div>
     </div>
+      </div>
+   
   );
 };
 
