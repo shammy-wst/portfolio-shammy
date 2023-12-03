@@ -37,7 +37,9 @@ const NavMenu: React.FC<NavMenuProps> = ({ isOpen, onClose }) => {
           <Link href="/projects">
           <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">PROJECTS</li>
           </Link>
+          <Link href="/aboutme">
           <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">ABOUT ME</li>
+          </Link>
           <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">CONTACT</li>
         </ul>
       </nav>
