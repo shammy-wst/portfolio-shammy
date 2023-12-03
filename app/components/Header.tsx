@@ -4,6 +4,8 @@
 
 import React, { useState } from "react";
 import NavMenu from "./NavMenu";
+import Image from "next/image";
+import Link from "next/link";
 
 const Header: React.FC = () => {
   const [isNavMenuOpen, setIsNavMenuOpen] = useState(false);
@@ -14,7 +16,18 @@ const Header: React.FC = () => {
 
   return (
     <div>
-      <header className="fixed top-0 right-0 flex flex-row justify-end p-9">
+      <header className="fixed top-0 right-0 flex flex-row justify-between w-full p-9">
+        <Link href="/">
+        <figure>
+        <Image
+          src="/assets/cube.gif"
+          alt="CubeGif"
+          width={25}
+          height={25}
+          priority
+        />
+        </figure>
+        </Link>
         {!isNavMenuOpen && (
           <svg
             width="24"

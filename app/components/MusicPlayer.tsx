@@ -48,7 +48,7 @@ const MusicPlayer: React.FC = () => {
         Your web browser does not support the audio element.
       </audio>
 
-      <div className="hidden fixed bottom-0 justify-between lg:flex gap-2 flex-row m-9 border-2 border-white p-4">
+      <div className="hidden fixed bottom-0 justify-between lg:flex gap-2 flex-row m-9 p-4">
         <svg
           width="12"
           height="20"

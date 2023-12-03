@@ -18,34 +18,34 @@ const projects: Project[] = [
     title: "BORED",
     image: "/assets/BORED.png",
     stacks: ["NextJS", "TypeScript", "NodeJS", "Google API"],
-    githubLink: "lien_github_1",
-    prodLink: "lien_production_1",
+    githubLink: "https://github.com/boredproject/bored_app",
+    prodLink: "https://bored-app-inky.vercel.app/",
   },
   {
     title: "FLIXHIVE",
     image: "/assets/FLIXHIVE.png",
     stacks: ["Next.js", "TypeScript", "TMDB API"],
-    githubLink: "lien_github_2",
-    prodLink: "lien_production_2",
+    githubLink: "https://github.com/shammy-wst/FlixHive-WEB",
+    prodLink: "https://flix-hive-web.vercel.app/",
   },
   {
     title: "HEXABOT",
     image: "/assets/HEXABOT.png",
     stacks: ["NestJS", "TypeScript", "Discord API"],
-    githubLink: "lien_github_3",
-    prodLink: "lien_production_3",
+    githubLink: "https://github.com/shammy-wst/hexa-bot",
+    prodLink: "https://discord.gg/WmpGbSBeF6",
   },
   {
-    title: "M.RGPD",
+    title: "MISSION RGPD",
     image: "/assets/RGPD.png",
-    stacks: ["Angular", "TypeScript", "Bootstrap"],
-    githubLink: "lien_github_4",
-    prodLink: "lien_production_4",
+    stacks: ["HTML", "CSS", "JS"],
+    githubLink: "https://github.com/shammy-wst/subskill-project",
+    prodLink: "https://project-subskill.netlify.app/",
   },
   {
     title: "DESIGN",
     image: "/assets/DRIBBLE.png",
-    stacks: ["Svelte", "JavaScript", "Tailwind CSS"],
+    stacks: ["Figma", "UI/UX", "Prototyping"],
     githubLink: "lien_github_5",
     prodLink: "lien_production_5",
   },
@@ -71,7 +71,7 @@ const Projects = () => {
       <div className="border-2 border-stone-500 w-4/5 lg:h-2/5 h-2/3 flex mx-auto flex-col">
         {/* Contenu du carrousel */}
         <figure className="relative w-full h-full scale-75">
-          <Image src={image} alt={title} layout="fill" objectFit="cover" />
+          <Image src={image} alt={title} layout="fill" objectFit="cover" className="border-2" />
         </figure>
         <div className="flex flex-col justify-center p-4 w-4/5 mb-4 mx-auto text-center gap-8">
           <div>
@@ -114,16 +114,14 @@ const Projects = () => {
       </div>
       {/* Boutons de navigation du carrousel */}
       <div className="flex justify-center w-4/5 mx-auto">
-        <div className="justify-center flex gap-8 text-4xl">
-        <button onClick={goToPreviousProject} className="btn btn-secondary">
-        &lt;
-        </button>
-        <button onClick={goToNextProject} className="btn btn-primary">
-        &gt;
-        </button>
-
+        <div className="justify-center flex gap-8 text-4xl text-stone-500">
+          <button onClick={goToPreviousProject} className="btn btn-secondary">
+            &lt;
+          </button>
+          <button onClick={goToNextProject} className="btn btn-primary">
+            &gt;
+          </button>
         </div>
-  
       </div>
     </div>
   );

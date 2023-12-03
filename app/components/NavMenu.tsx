@@ -31,6 +31,9 @@ const NavMenu: React.FC<NavMenuProps> = ({ isOpen, onClose }) => {
           />
         </svg>
         <ul className="flex flex-col justify-center items-center h-screen">
+        <Link onClick={onClose} href="/">
+          <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">HOME</li>
+          </Link>
           <Link href="/projects">
           <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">PROJECTS</li>
           </Link>
