@@ -46,7 +46,7 @@ const MusicPlayer: React.FC = () => {
   };
 
   return (
-    <div className="flex items-center justify-center h-full opacity-50">
+    <div className="flex items-center justify-center h-full">
       <audio ref={audioRef} autoPlay>
         <source
           src="https://bored-bucket.s3.eu-west-3.amazonaws.com/Sleep+Music+-+Deep+Space+-+30+Minutes.mp3"
@@ -56,28 +56,33 @@ const MusicPlayer: React.FC = () => {
       </audio>
 
       <div className="fixed bottom-0 justify-center flex gap-2 flex-row m-9 w-1/6 z-30">
-        <IconButton onClick={handlePlayPause} className="text-white">
+        <IconButton onClick={handlePlayPause} className="text-stone-500">
           {isPlaying ? <PauseIcon /> : <PlayArrowIcon />}
         </IconButton>
 
         <Slider
-          value={volume}
-          onChange={handleVolumeChange}
-          min={0}
-          max={100}
-          valueLabelDisplay="auto"
-          valueLabelFormat={(value) => `${value}%`}
-          className="hidden md:flex w-3/5 m-auto justify-center item-center"
-          sx={{
-            color: 'white', // Color of the slider track
-            "& .MuiSlider-thumb": {
-              backgroundColor: 'black', // Color of the thumb
-              border: '2px solid white',
-            },
-          }}
-        />
-
-        <IconButton onClick={handleMuteToggle} className="text-white">
+  value={volume}
+  onChange={handleVolumeChange}
+  min={0}
+  max={100}
+  valueLabelDisplay="auto"
+  valueLabelFormat={(value) => `${value}%`}
+  className="hidden md:flex w-3/5 m-auto justify-center item-center"
+  sx={{
+    color: "#78716c", // Color of the slider track
+    "& .MuiSlider-thumb": {
+      backgroundColor: "#78716c", // Color of the thumb
+      border: "2px solid white",
+      "@media (max-width: 767px)": {
+        display: "none", // Hide the thumb in mobile view
+      },
+    },
+    "@media (max-width: 767px)": {
+      display: "none", // Hide the entire slider in mobile view
+    },
+  }}
+/>
+        <IconButton onClick={handleMuteToggle} className="text-stone-500">
           {isMuted ? <VolumeOffIcon /> : <VolumeUpIcon />}
         </IconButton>
       </div>
