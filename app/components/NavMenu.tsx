@@ -22,6 +22,14 @@ const NavMenu: React.FC<NavMenuProps> = ({ isOpen, onClose }) => {
         isOpen ? "block" : "hidden"
       }`}
     >
+      <div className="fixed top-0 right-0 flex m-6">
+        <button
+          className="text-2xl font-bold text-stone-500 p-4"
+          onClick={handleLinkClick}
+        >
+          x
+        </button>
+      </div>
       <nav className="flex flex-col justify-center align-middle items-center h-screen">
         {/* ... (rest of the code) */}
         <ul className="flex flex-col justify-center items-center h-screen">

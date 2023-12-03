@@ -15,7 +15,7 @@ const MainComponent: React.FC = () => {
   return (
     <div className="flex flex-col justify-center items-center h-screen">
       <figure
-        className="scale-75 z-10"
+        className="scale-75 z-0"
         style={{ width: "200px", height: "200px" }}
       >
         <Image

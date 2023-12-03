@@ -1,4 +1,7 @@
 "use client";
+
+
+
 import React, { useState } from "react";
 import Image from "next/image";
 import MailHover from "./MailHover";
@@ -13,10 +16,11 @@ const ContactMe: React.FC = () => {
   const closeMailHover = () => {
     setIsMailHoverVisible(false);
   };
+
   return (
-    <div className="flex flex-col w-full h-screen justify-center items-center">
-      <div className="bg-black fixed w-full h-full z-10 opacity-90"></div>
-      <figure className="w-full h-screen overflow-hidden">
+    <div className="flex flex-col w-screen h-full justify-center items-center fixed">
+      <div className="bg-black fixed w-screen h-full z-10 opacity-90"></div>
+      <figure className="w-full h-full">
         <Image
           src="/assets/contactme.gif"
           alt="bgcontactme"
@@ -25,44 +29,51 @@ const ContactMe: React.FC = () => {
           priority
         />
       </figure>
-      <div className="flex fixed z-10 flex-col border-2 w-4/5 gap-6 p-4">
-        <h1 className="text-4xl text-center uppercase rainbow-text">CONTACT</h1>
-        <div className="flex flex-col lg:flex-row justify-evenly p-2">
-          <figure className="flex justify-center">
-            <a target="_blank" href="https://discord.gg/WmpGbSBeF6">
+      <div className="fixed flex z-10 scale-90 h-full m-auto items-center">
+        <div className="flex justify-center flex-col gap-6 m-auto h-full w-screen">
+          <h1 className="flex text-4xl text-center justify-center uppercase rainbow-text w-screen">
+            CONTACT
+          </h1>
+          <div className="flex lg:flex-row flex-col justify-between lg:gap-20 items-center w-screen">
+            <figure>
+              <a target="_blank" href="https://discord.gg/WmpGbSBeF6">
+                <Image
+                  src="/assets/discord.png"
+                  alt="bgcontactme"
+                  width={150}
+                  height={150}
+                  priority
+                  className="hover:scale-110 border-2"
+                />
+              </a>
+            </figure>
+            <figure>
               <Image
-                src="/assets/discord.png"
+                src="/assets/mail.png"
                 alt="bgcontactme"
                 width={150}
                 height={150}
                 priority
                 className="hover:scale-110 border-2"
+                onClick={openMailHover}
               />
-            </a>
-          </figure>
-          <figure className="flex justify-center">
-            <Image
-              src="/assets/mail.png"
-              alt="bgcontactme"
-              width={150}
-              height={150}
-              priority
-              className="hover:scale-110 border-2"
-              onClick={openMailHover}
-            />
-          </figure>
-          <figure className="flex justify-center">
-            <a target="_blank" href="https://www.linkedin.com/in/aichammmadi/">
-              <Image
-                src="/assets/linkedin.png"
-                alt="bgcontactme"
-                width={150}
-                height={150}
-                priority
-                className="hover:scale-110 border-2"
-              />
-            </a>
-          </figure>
+            </figure>
+            <figure>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/aichammmadi/"
+              >
+                <Image
+                  src="/assets/linkedin.png"
+                  alt="bgcontactme"
+                  width={150}
+                  height={150}
+                  priority
+                  className="hover:scale-110 border-2"
+                />
+              </a>
+            </figure>
+          </div>
         </div>
         {isMailHoverVisible && <MailHover onClose={closeMailHover} />}
       </div>
