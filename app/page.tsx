@@ -1,11 +1,11 @@
-import Header from "./components/Header";
-import Videoloop from "./components/Videoloop";
+import Image from 'next/image'
+import MainComponent from './components/MainComponent'
 
 export default function Home() {
   return (
-    <div id="page__content">
-      <Header />
-      <Videoloop />
-    </div>
+   <main>
+  <MainComponent />
+
+   </main>
   )
 }
