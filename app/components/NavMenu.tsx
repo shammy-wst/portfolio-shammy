@@ -1,6 +1,8 @@
 // NavMenu.tsx
 'use client';
 
+import Link from "next/link";
+
 import React from "react";
 
 interface NavMenuProps {
@@ -29,7 +31,9 @@ const NavMenu: React.FC<NavMenuProps> = ({ isOpen, onClose }) => {
           />
         </svg>
         <ul className="flex flex-col justify-center items-center h-screen">
+          <Link href="/projects">
           <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">PROJECTS</li>
+          </Link>
           <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">ABOUT ME</li>
           <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">CONTACT</li>
         </ul>
