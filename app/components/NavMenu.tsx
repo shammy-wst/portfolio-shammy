@@ -29,9 +29,9 @@ const NavMenu: React.FC<NavMenuProps> = ({ isOpen, onClose }) => {
           />
         </svg>
         <ul className="flex flex-col justify-center items-center h-screen">
-          <li className="text-white text-2xl font-bold mb-10 hover:underline">PROJECTS</li>
-          <li className="text-white text-2xl font-bold mb-10 hover:underline">ABOUT ME</li>
-          <li className="text-white text-2xl font-bold mb-10 hover:underline">CONTACT</li>
+          <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">PROJECTS</li>
+          <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">ABOUT ME</li>
+          <li className="text-2xl font-bold mb-10 hover:underline rainbow-text">CONTACT</li>
         </ul>
       </nav>
     </div>

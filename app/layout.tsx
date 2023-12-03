@@ -8,7 +8,6 @@ interface CustomMetadata extends Metadata {
 export const metadata: CustomMetadata = {
   title: 'Shammyツ',
   description: 'Icham M$apos;MADI website',
-  icon: '/favicon.ico',
 }
 
 export default function RootLayout({
@@ -21,7 +20,7 @@ export default function RootLayout({
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {metadata.icon && <link rel="icon" href={metadata.icon} />}
+        <link rel="icon" href="/favicon.ico" />
         {/* Add other meta tags, stylesheets, etc. here */}
       </head>
       <body style={{ fontFamily: 'JetBrains Mono, monospace' }}>

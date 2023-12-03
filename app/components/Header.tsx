@@ -14,7 +14,7 @@ const Header: React.FC = () => {
 
   return (
     <div>
-      <header className="flex flex-row justify-end p-4">
+      <header className="fixed top-0 right-0 flex flex-row justify-end p-9">
         {!isNavMenuOpen && (
           <svg
             width="24"
