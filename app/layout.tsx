@@ -8,6 +8,7 @@ interface CustomMetadata extends Metadata {
 export const metadata: CustomMetadata = {
   title: 'Shammyツ',
   description: 'Icham M$apos;MADI website',
+  icon: '/favicon.ico',
 }
 
 export default function RootLayout({

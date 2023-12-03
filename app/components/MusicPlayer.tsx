@@ -39,13 +39,13 @@ const MusicPlayer: React.FC = () => {
   };
 
   return (
-    <div className="flex items-center justify-center h-full">
+    <div className="flex items-center justify-center h-full opacity-50">
       <audio ref={audioRef} autoPlay>
         <source
           src="https://bored-bucket.s3.eu-west-3.amazonaws.com/Sleep+Music+-+Deep+Space+-+30+Minutes.mp3"
           type="audio/mpeg"
         />
-        Votre navigateur ne prend pas en charge l'élément audio.
+        Your web browser does not support the audio element.
       </audio>
 
       <div className="hidden fixed bottom-0 justify-between lg:flex gap-2 flex-row m-9 border-2 border-white p-4">
