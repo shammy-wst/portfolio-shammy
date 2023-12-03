@@ -55,7 +55,7 @@ const MusicPlayer: React.FC = () => {
         Your web browser does not support the audio element.
       </audio>
 
-      <div className="hidden fixed bottom-0 justify-between lg:flex gap-2 flex-row m-9 w-1/6">
+      <div className="fixed bottom-0 justify-center flex gap-2 flex-row m-9 w-1/6">
         <IconButton onClick={handlePlayPause} className="text-white">
           {isPlaying ? <PauseIcon /> : <PlayArrowIcon />}
         </IconButton>
@@ -67,7 +67,7 @@ const MusicPlayer: React.FC = () => {
           max={100}
           valueLabelDisplay="auto"
           valueLabelFormat={(value) => `${value}%`}
-          className="w-3/5 m-auto"
+          className="hidden md:flex w-3/5 m-auto justify-center item-center"
           sx={{
             color: 'white', // Color of the slider track
             "& .MuiSlider-thumb": {
