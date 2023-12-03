@@ -1,10 +1,10 @@
 // MailHover.tsx
 
-"use client";
+'use client';
 
 import React, { useState } from "react";
 import emailjs, { init } from "@emailjs/browser";
-import dotenv from "dotenv";
+import dotenv from 'dotenv';
 
 dotenv.config(); // Chargez les variables d'environnement depuis le fichier .env
 
@@ -22,9 +22,9 @@ const MailHover: React.FC<MailHoverProps> = ({ onClose }) => {
     e.preventDefault();
 
     // Récupérez les clés depuis le fichier .env
-    const userID = process.env.EMAILJS_USER_ID ?? "";
-    const serviceID = process.env.EMAILJS_SERVICE_ID ?? "";
-    const templateID = process.env.EMAILJS_TEMPLATE_ID ?? "";
+    const userID = process.env.EMAILJS_USER_ID ?? '';
+    const serviceID = process.env.EMAILJS_SERVICE_ID ?? '';
+    const templateID = process.env.EMAILJS_TEMPLATE_ID ?? '';
 
     init(userID); // Initialisez avec la clé d'utilisateur EmailJS
 
@@ -42,48 +42,47 @@ const MailHover: React.FC<MailHoverProps> = ({ onClose }) => {
       message: text,
     };
 
-    emailjs.send(serviceID, templateID, templateParams).then(
-      (response) => {
-        console.log("Email sent successfully:", response);
-        // Ajoutez une logique supplémentaire ici, comme afficher un message de succès ou fermer le modal
-      },
-      (error) => {
-        console.error("Email sending failed:", error);
-        // Ajoutez une logique supplémentaire ici, comme afficher un message d'erreur
-      }
-    );
+    emailjs
+      .send(serviceID, templateID, templateParams)
+      .then(
+        (response) => {
+          console.log("Email sent successfully:", response);
+          // Ajoutez une logique supplémentaire ici, comme afficher un message de succès ou fermer le modal
+        },
+        (error) => {
+          console.error("Email sending failed:", error);
+          // Ajoutez une logique supplémentaire ici, comme afficher un message d'erreur
+        }
+      );
   };
 
   return (
     <div className="flex fixed top-0 left-0 w-full h-full items-center justify-center">
-      <div className="bg-black w-full h-full opacity-90">
-        <button
-          className="absolute top-2 right-2 text-stone-500"
-          onClick={onClose}
+      <div className="bg-black w-full h-full opacity-0" onClick={onClose}>
+        <button className="absolute top-2 right-2 text-stone-500" onClick={onClose}>
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 10 10"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="fixed top-10 right-10 cursor-pointer"
         >
-          <svg
-            width="20"
-            height="20"
-            viewBox="0 0 10 10"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="fixed top-10 right-10 cursor-pointer"
-          >
-            <path
-              d="M1.46399 8.535L8.53599 1.465M1.46399 1.465L8.53599 8.535"
-              stroke="white"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-            />
-          </svg>
+          <path
+            d="M1.46399 8.535L8.53599 1.465M1.46399 1.465L8.53599 8.535"
+            stroke="white"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+          />
+        </svg>
         </button>
       </div>
       <div className="bg-black lg:w-4/5 p-4 border-2 border-white shadow-md fixed text-white">
         <div className="flex flex-col justify-center item-center mx-auto w-full mb-4">
-          <h1 className="justify-center flex text-4xl font-bold">CONTACT ME</h1>
-          <p className="justify-center flex">Via e-mail</p>
+        <h1 className="justify-center flex text-4xl font-bold">CONTACT ME</h1>
+        <p className="justify-center flex">Via e-mail</p>
         </div>
-
+        
         <form onSubmit={sendEmail} className="flex flex-col space-y-4">
           <label className="text-white" htmlFor="email">
             Email:
@@ -144,10 +143,7 @@ const MailHover: React.FC<MailHoverProps> = ({ onClose }) => {
             className="border p-2 bg-black text-white"
           ></textarea>
 
-          <button
-            type="submit"
-            className="border-2 text-white py-2 px-4 hover:bg-white hover:text-black uppercase"
-          >
+          <button type="submit" className="border-2 text-white py-2 px-4 hover:bg-white hover:text-black uppercase">
             SEND
           </button>
         </form>
