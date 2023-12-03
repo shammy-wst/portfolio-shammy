@@ -35,18 +35,3 @@ body {
   -webkit-background-clip: text;
   color: transparent;
 }
-
-
-/* path-to-your-custom-styles.css */
-/* Add custom CSS for slider thumb color */
-input[type="range"]::-webkit-slider-thumb {
-  background-color: var(--thumb-color) !important;
-}
-
-input[type="range"]::-moz-range-thumb {
-  background-color: var(--thumb-color) !important;
-}
-
-input[type="range"]::-ms-thumb {
-  background-color: var(--thumb-color) !important;
-}
