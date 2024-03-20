@@ -61,7 +61,7 @@ const MainComponent: React.FC = () => {
         <a
           target="_blank"
           href="https://staky.io/"
-          className="flex justify-center items-center text-stone-500 hover:underline"
+          className="flex justify-center items-center text-white hover:underline opacity-50"
         >
           STAKY.IO
         </a>

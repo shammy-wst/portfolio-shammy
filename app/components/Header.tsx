@@ -1,6 +1,6 @@
 // Header.tsx
 
-'use client';
+"use client";
 
 import React, { useState } from "react";
 import NavMenu from "./NavMenu";
@@ -18,15 +18,15 @@ const Header: React.FC = () => {
     <div className="fixed z-20">
       <header className="fixed top-0 right-0 flex flex-row justify-between w-full p-4 bg-black">
         <Link href="/">
-        <figure>
-        <Image
-          src="/assets/cube.gif"
-          alt="CubeGif"
-          width={25}
-          height={25}
-          priority
-        />
-        </figure>
+          <figure>
+            <Image
+              src="/assets/cube.gif"
+              alt="CubeGif"
+              width={25}
+              height={25}
+              priority
+            />
+          </figure>
         </Link>
         {!isNavMenuOpen && (
           <svg
@@ -40,7 +40,7 @@ const Header: React.FC = () => {
           >
             <path
               d="M3 6.00101H21M3 12.001H21M3 18.001H21"
-              stroke="#F8F8F8"
+              stroke="#Ffff"
               strokeLinecap="round"
               strokeLinejoin="round"
             />

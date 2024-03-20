@@ -24,7 +24,7 @@ const NavMenu: React.FC<NavMenuProps> = ({ isOpen, onClose }) => {
     >
       <div className="fixed top-0 right-0 flex m-6">
         <button
-          className="text-2xl font-bold text-stone-500 p-4"
+          className="text-2xl font-bold text-white p-4"
           onClick={handleLinkClick}
         >
           x

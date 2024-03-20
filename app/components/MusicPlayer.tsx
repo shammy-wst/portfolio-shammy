@@ -9,7 +9,7 @@ import VolumeUpIcon from "@mui/icons-material/VolumeUp";
 import VolumeOffIcon from "@mui/icons-material/VolumeOff";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import PauseIcon from "@mui/icons-material/Pause";
-import '../globals.css';
+import "../globals.css";
 
 const MusicPlayer: React.FC = () => {
   const audioRef = useRef<HTMLAudioElement>(null);
@@ -41,7 +41,7 @@ const MusicPlayer: React.FC = () => {
     const audioElement = audioRef.current;
     if (audioElement) {
       setVolume(value as number);
-      audioElement.volume = value as number / 100;
+      audioElement.volume = (value as number) / 100;
     }
   };
 
@@ -56,33 +56,33 @@ const MusicPlayer: React.FC = () => {
       </audio>
 
       <div className="fixed bottom-0 justify-center flex gap-2 flex-row m-9 w-1/6 z-30">
-        <IconButton onClick={handlePlayPause} className="text-stone-500">
+        <IconButton onClick={handlePlayPause} className="text-white">
           {isPlaying ? <PauseIcon /> : <PlayArrowIcon />}
         </IconButton>
 
         <Slider
-  value={volume}
-  onChange={handleVolumeChange}
-  min={0}
-  max={100}
-  valueLabelDisplay="auto"
-  valueLabelFormat={(value) => `${value}%`}
-  className="hidden md:flex w-3/5 m-auto justify-center item-center"
-  sx={{
-    color: "#78716c", // Color of the slider track
-    "& .MuiSlider-thumb": {
-      backgroundColor: "#78716c", // Color of the thumb
-      border: "2px solid white",
-      "@media (max-width: 767px)": {
-        display: "none", // Hide the thumb in mobile view
-      },
-    },
-    "@media (max-width: 767px)": {
-      display: "none", // Hide the entire slider in mobile view
-    },
-  }}
-/>
-        <IconButton onClick={handleMuteToggle} className="text-stone-500">
+          value={volume}
+          onChange={handleVolumeChange}
+          min={0}
+          max={100}
+          valueLabelDisplay="auto"
+          valueLabelFormat={(value) => `${value}%`}
+          className="hidden md:flex w-3/5 m-auto justify-center item-center z-0"
+          sx={{
+            color: "#ffff", // Color of the slider track
+            "& .MuiSlider-thumb": {
+              backgroundColor: "#78716c", // Color of the thumb
+              border: "2px solid white",
+              "@media (max-width: 767px)": {
+                display: "none", // Hide the thumb in mobile view
+              },
+            },
+            "@media (max-width: 767px)": {
+              display: "none", // Hide the entire slider in mobile view
+            },
+          }}
+        />
+        <IconButton onClick={handleMuteToggle} className="text-white">
           {isMuted ? <VolumeOffIcon /> : <VolumeUpIcon />}
         </IconButton>
       </div>
