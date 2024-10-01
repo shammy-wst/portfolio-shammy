@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 20px;
+}
+
+/* Links */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-1 {
+  margin-top: 10px;
+}
+.mt-2 {
+  margin-top: 20px;
+}
+.mt-3 {
+  margin-top: 30px;
+}
+
+.mb-1 {
+  margin-bottom: 10px;
+}
+.mb-2 {
+  margin-bottom: 20px;
+}
+.mb-3 {
+  margin-bottom: 30px;
+}
+
+.pt-1 {
+  padding-top: 10px;
+}
+.pt-2 {
+  padding-top: 20px;
+}
+.pt-3 {
+  padding-top: 30px;
+}
+
+.pb-1 {
+  padding-bottom: 10px;
+}
+.pb-2 {
+  padding-bottom: 20px;
+}
+.pb-3 {
+  padding-bottom: 30px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+.btn-primary {
+  background-color: #3498db;
+}
+
+.btn-secondary {
+  background-color: #2ecc71;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+}
