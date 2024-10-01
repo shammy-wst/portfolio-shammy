@@ -76,24 +76,27 @@ const AboutMe: React.FC = () => {
               </a>
             </span>{" "}
             a 20 years old student in computer science, I&apos;m passionate
-            about web development especially in the blockchain. I&apos;m
-            currently working at{" "}
+            about web development especially in creative things. I&apos;m
+            currently looking for an{" "}
             <span
               className={`hover:underline rainbow-text ${
-                hoveredLink === "https://staky.io/" && "hovered"
+                hoveredLink === "https://www.linkedin.com/in/aichammmadi/" &&
+                "hovered"
               }`}
-              onMouseEnter={() => setHoveredLink("https://staky.io/")}
+              onMouseEnter={() =>
+                setHoveredLink("https://www.linkedin.com/in/aichammmadi/")
+              }
               onMouseLeave={() => setHoveredLink(null)}
             >
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://staky.io/"
+                href="https://www.linkedin.com/in/aichammmadi/"
               >
-                Staky.Io
+                Internship
               </a>
             </span>{" "}
-            as a Junior Blockhain Dev.
+            as a Junior Creative Web Developer.
           </p>
           <p className="text-center text-lg text-white tracking-wide">
             When I&apos;m not coding, I&apos;m on the football fields, I&apos;m

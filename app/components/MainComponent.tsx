@@ -26,8 +26,8 @@ const MainComponent: React.FC = () => {
           priority
         />
       </figure>
-      <div className="flex flex-col">
-        <h1 className="uppercase font-extrabold text-3xl pb-10">
+      <div className="flex flex-col items-center">
+        <h1 className="uppercase font-extrabold text-4xl pb-10">
           <span className="rainbow-text">S</span>
           <span className="rainbow-text">H</span>
           <span className="rainbow-text">A</span>
@@ -36,16 +36,18 @@ const MainComponent: React.FC = () => {
           <span className="rainbow-text">Y</span>
         </h1>
         <p className="flex justify-center items-center">
-          <span className="rainbow-text">B</span>
-          <span className="rainbow-text">L</span>
-          <span className="rainbow-text">O</span>
           <span className="rainbow-text">C</span>
-          <span className="rainbow-text">K</span>
-          <span className="rainbow-text">C</span>
-          <span className="rainbow-text">H</span>
+          <span className="rainbow-text">R</span>
+          <span className="rainbow-text">E</span>
           <span className="rainbow-text">A</span>
+          <span className="rainbow-text">T</span>
           <span className="rainbow-text">I</span>
-          <span className="rainbow-text">N</span>
+          <span className="rainbow-text">V</span>
+          <span className="rainbow-text">E</span>
+          <span className={`rainbow-text`}>&nbsp;</span>{" "}
+          <span className="rainbow-text">W</span>
+          <span className="rainbow-text">E</span>
+          <span className="rainbow-text">B</span>
         </p>
         <p className="flex justify-center items-center">
           <span className="rainbow-text">D</span>
@@ -60,10 +62,10 @@ const MainComponent: React.FC = () => {
         </p>
         <a
           target="_blank"
-          href="https://staky.io/"
+          href="https://www.malt.fr/profile/aminichammmadi"
           className="flex justify-center items-center text-white hover:underline opacity-50"
         >
-          STAKY.IO
+          SEEKING FOR NEW OPPORTUNITIES
         </a>
       </div>
     </div>
