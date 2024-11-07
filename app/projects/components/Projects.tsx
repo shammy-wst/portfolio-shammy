@@ -29,6 +29,22 @@ const projects: Project[] = [
     prodLink: "https://flix-hive-web.vercel.app/",
   },
   {
+    title: "TASKHUB",
+    image: "/assets/taskhub.png",
+    stacks: [
+      "React",
+      "Javascript",
+      "NodeJS",
+      "PostgreSQL",
+      "Sequelize",
+      "Express",
+      "Docker",
+      "JWT",
+    ],
+    githubLink: "https://github.com/shammy-wst/TaskHub",
+    prodLink: "https://task-hub-taupe.vercel.app/",
+  },
+  {
     title: "HEXABOT",
     image: "/assets/HEXABOT.png",
     stacks: ["NestJS", "TypeScript", "Discord API"],
@@ -82,14 +98,14 @@ const Projects = () => {
         <h1 className="text-4xl text-center uppercase rainbow-text z-0">
           Projects
         </h1>
-        <div className="border-2 border-white w-4/5 lg:h-2/5 h-2/3 flex mx-auto flex-col bg-black z-0">
+        <div className="border-2 border-white rounded-lg w-4/5 lg:h-2/5 h-2/3 flex mx-auto flex-col bg-black z-0">
           {/* Contenu du carrousel */}
           <figure className="relative w-full h-full scale-75">
             <Image
               src={image}
               alt={title}
               layout="fill"
-              className="border-2 object-contain"
+              className="border-2 rounded-lg object-contain"
             />
           </figure>
           <div className="flex flex-col justify-center p-4 w-4/5 mb-4 mx-auto text-center gap-8">

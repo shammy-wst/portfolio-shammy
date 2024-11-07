@@ -50,7 +50,7 @@ const AboutMe: React.FC = () => {
           priority
         />
       </div>
-      <div className="flex z-10 flex-col border-2 border-white w-4/5 gap-6 p-2 justify-center">
+      <div className="flex z-10 flex-col border-2 rounded-lg border-white w-4/5 gap-6 p-2 justify-center">
         <div className="flex flex-col">
           <h1 className="text-2xl text-center uppercase rainbow-text pb-4">
             About Me

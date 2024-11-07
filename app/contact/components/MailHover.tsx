@@ -55,83 +55,83 @@ const MailHover: React.FC<MailHoverProps> = ({ onClose }) => {
   };
 
   return (
-      <div className="fixed flex flex-col bg-black w-full h-3/4 z-30 p-4 border-2 border-stone-500 overflow-auto">
-        <div className="flex justify-end">
-          <button
-            className="text-white"
-            onClick={onClose}
-          >
-            X
-          </button>
-        </div>
-        <form onSubmit={sendEmail} className="flex flex-col space-y-4 justify-center items-center p-2">
-  <label className="text-white" htmlFor="email">
-    Email:
-  </label>
-  <input
-    type="email"
-    id="email"
-    value="a_mmadi@hetic.eu"
-    disabled
-    required
-    className="border p-2 bg-black text-white w-full"
-  />
-
-  <label className="text-white" htmlFor="object">
-    Object:
-  </label>
-  <input
-    type="text"
-    id="object"
-    value={object}
-    onChange={(e) => setObject(e.target.value)}
-    required
-    className="border p-2 bg-black text-white w-full"
-  />
-
-  <label className="text-white" htmlFor="firstName">
-    First Name:
-  </label>
-  <input
-    type="text"
-    id="firstName"
-    value={firstName}
-    onChange={(e) => setFirstName(e.target.value)}
-    required
-    className="border p-2 bg-black text-white w-full"
-  />
-
-  <label className="text-white" htmlFor="lastName">
-    Last Name:
-  </label>
-  <input
-    type="text"
-    id="lastName"
-    value={lastName}
-    onChange={(e) => setLastName(e.target.value)}
-    required
-    className="border p-2 bg-black text-white w-full"
-  />
-
-  <label className="text-white" htmlFor="text">
-    Message (minimum 50 characters):
-  </label>
-  <textarea
-    id="text"
-    value={text}
-    onChange={(e) => setText(e.target.value)}
-    required
-    className="border p-2 bg-black text-white w-full h-32"
-  ></textarea>
-
-  <button
-    type="submit"
-    className="border-2 text-white py-2 px-4 hover:bg-white hover:text-black uppercase w-full"
-  >
-    SEND
-  </button>
-</form>
+    <div className="fixed flex flex-col bg-black w-full h-3/4 z-30 p-4 border-2 rounded-lg border-stone-500 overflow-auto">
+      <div className="flex justify-end">
+        <button className="text-white" onClick={onClose}>
+          X
+        </button>
       </div>
+      <form
+        onSubmit={sendEmail}
+        className="flex flex-col space-y-4 justify-center items-center p-2"
+      >
+        <label className="text-white" htmlFor="email">
+          Email:
+        </label>
+        <input
+          type="email"
+          id="email"
+          value="a_mmadi@hetic.eu"
+          disabled
+          required
+          className="border p-2 rounded-lg bg-black text-white w-full"
+        />
+
+        <label className="text-white" htmlFor="object">
+          Object:
+        </label>
+        <input
+          type="text"
+          id="object"
+          value={object}
+          onChange={(e) => setObject(e.target.value)}
+          required
+          className="border p-2 rounded-lg bg-black text-white w-full"
+        />
+
+        <label className="text-white" htmlFor="firstName">
+          First Name:
+        </label>
+        <input
+          type="text"
+          id="firstName"
+          value={firstName}
+          onChange={(e) => setFirstName(e.target.value)}
+          required
+          className="border p-2 rounded-lg bg-black text-white w-full"
+        />
+
+        <label className="text-white" htmlFor="lastName">
+          Last Name:
+        </label>
+        <input
+          type="text"
+          id="lastName"
+          value={lastName}
+          onChange={(e) => setLastName(e.target.value)}
+          required
+          className="border p-2 rounded-lg bg-black text-white w-full"
+        />
+
+        <label className="text-white" htmlFor="text">
+          Message (minimum 50 characters):
+        </label>
+        <textarea
+          id="text"
+          value={text}
+          onChange={(e) => setText(e.target.value)}
+          required
+          className="border p-2 rounded-lg bg-black text-white w-full h-32"
+        ></textarea>
+
+        <button
+          type="submit"
+          className="border-2 rounded-lg text-white py-2 px-4 hover:bg-white hover:text-black uppercase w-full"
+        >
+          SEND
+        </button>
+      </form>
+    </div>
   );
 };
 

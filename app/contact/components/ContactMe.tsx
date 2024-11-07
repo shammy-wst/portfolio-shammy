@@ -1,7 +1,5 @@
 "use client";
 
-
-
 import React, { useState } from "react";
 import Image from "next/image";
 import MailHover from "./MailHover";
@@ -43,7 +41,7 @@ const ContactMe: React.FC = () => {
                   width={150}
                   height={150}
                   priority
-                  className="hover:scale-110 border-2"
+                  className="hover:scale-110 border-2 rounded-lg"
                 />
               </a>
             </figure>
@@ -54,7 +52,7 @@ const ContactMe: React.FC = () => {
                 width={150}
                 height={150}
                 priority
-                className="hover:scale-110 border-2"
+                className="hover:scale-110 border-2 rounded-lg"
                 onClick={openMailHover}
               />
             </figure>
@@ -69,7 +67,7 @@ const ContactMe: React.FC = () => {
                   width={150}
                   height={150}
                   priority
-                  className="hover:scale-110 border-2"
+                  className="hover:scale-110 border-2 rounded-lg"
                 />
               </a>
             </figure>
