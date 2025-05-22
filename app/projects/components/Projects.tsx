@@ -15,11 +15,26 @@ interface Project {
 // Tableau de projets
 const projects: Project[] = [
   {
+    title: "TAKTO",
+    image: "/assets/TAKTO.png",
+    stacks: ["HTML", "CSS", "Accessibility", "NOJS Compatible"],
+    githubLink: "https://takto.vercel.app/",
+    prodLink: "https://github.com/shammy-wst/TAKTO",
+  },
+  {
     title: "BORED",
     image: "/assets/BORED.png",
     stacks: ["NextJS", "TypeScript", "NodeJS", "Google API"],
     githubLink: "https://github.com/boredproject/bored_app",
     prodLink: "https://bored-app-inky.vercel.app/",
+  },
+  {
+    title: "ARIZE",
+    image: "/assets/UNITY.png",
+    stacks: ["UNITY", "AR", "Beta"],
+    githubLink:
+      "https://www.figma.com/deck/qPUugcJdHa11Nr6QRc07sU/ARize---Presentation?node-id=1-266&viewport=-145%2C-69%2C0.67&t=gaDPX3MO9sV13s6h-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+    prodLink: "https://icham-mmadi.fr/",
   },
   {
     title: "FLIXHIVE",
